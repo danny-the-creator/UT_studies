@@ -1,0 +1,10 @@
+e200		; ldi r16,$20 Register 16 now contains 0010 0000
+b904		; out 4,r16 We write r16 to the Data Direction Register:
+		; it makes the pin to which the LED is connected act as an
+		; output pin. This needs to be done only once: the pin
+		; remains an output as long as the program is running.
+e000
+b905 		; out 5,r16 Write that same 0010 0000 to the PORTB output register;
+		; thus the pin is really set to 1 now (5 volts), making
+		; the LED light up.
+cfff 		; rjmp -1 Endless loop, don’t do anything anymore

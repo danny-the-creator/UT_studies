@@ -1,0 +1,28 @@
+.device atmega328p
+ldi r17,1001 ; one multiplicand, try other values!
+ldi r18,0010 ; the other multiplicand, try other values!
+
+; --- don’t change anything above this line ---
+clr r16       ; Clear r16 to use it for storing the result
+and r18, r17  ; Perform bitwise AND between r17 and r18, store result in r18
+breq skip1    ; If result is 0, skip the addition
+add r16, r17  ; Add r17 to r16 (result = result + r17+)
+skip1:
+lsl r17       ; Shift r17 left by one bit
+lsr r18       ; Shift r18 right by one bit
+and r18, r17  ; Perform bitwise AND between r17 and r18, store result in r18
+breq skip2    ; If result is 0, skip the addition
+add r16, r17  ; Add r17 to r16 (result = result + r17)
+skip2:
+lsl r17       ; Shift r17 left by one bit
+lsr r18       ; Shift r18 right by one bit
+and r18, r17  ; Perform bitwise AND between r17 and r18, store result in r18
+breq skip3    ; If result is 0, skip the addition
+add r16, r17  ; Add r17 to r16 (result = result + r17)
+skip3:
+; --- don’t change anything below this line ---
+
+call sendr16tolaptop ; send calculation result to laptop
+again:
+rjmp again ; finished, go into infinite loop
+.include "rs232link.inc"

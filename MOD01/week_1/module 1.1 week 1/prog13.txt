@@ -1,0 +1,72 @@
+.device atmega328p 		; what type of processor do we use? don’t change!
+.equ DDRB = 4 			; address of data direction register; don’t change!
+.equ PORTB = 5 			; address of output port register; don’t change!
+ldi r16,$20 			; register 16 now contains 0010 0000
+out DDRB,r16 			; write this to the data direction register to make
+				; the pin with the LED act as output
+again: 				; this is not an instruction, but a label, as
+
+ldi r16,$20			; turn on the led
+out PORTB,r16
+
+
+ldi r17, 255
+noploop2:			; tag to go to
+dec r17				; subtract 1 from counter
+breq less2 			; if equal jump to equal
+
+ldi r20, 255
+noploop21:			; tag to go to
+dec r20				; subtract 1 from counter
+breq less21			; if equal jump to equal
+
+ldi r22, 15								; delay
+noploop22:			; tag to go to
+dec r22				; subtract 1 from counter
+breq less22			; if equal jump to equal
+;
+rjmp noploop22			; return to noploop tag
+less22:
+
+rjmp noploop21			; return to noploop tag
+less21:
+rjmp noploop2			; return to noploop tag
+
+less2:
+
+
+ldi r16,0			; turn off the led
+out PORTB,r16 			; and also write to the port itself, which switches
+
+ldi r18, 255
+
+noploop1:			; tag to go to
+dec r18				; subtract 1 from counter
+breq less1 			; if equal jump to equal
+				; do nothing
+ldi r21, 15								; delay
+noploop11:			; tag to go to
+dec r21				; subtract 1 from counter
+breq less11			; if equal jump to equal
+
+ldi r22, 255
+noploop12:			; tag to go to
+dec r23				; subtract 1 from counter
+breq less12			; if equal jump to equal
+;
+rjmp noploop12			; return to noploop tag
+less12:
+
+rjmp noploop11
+less11:
+
+rjmp noploop1			; return to noploop tag
+less1:
+
+
+
+				; indicated by the colon at the end
+rjmp again 			; infinite loop: jump back to the label
+				; note: do not use rjmp -1 anymore, only use labels!
+
+.include "rs232link.inc"

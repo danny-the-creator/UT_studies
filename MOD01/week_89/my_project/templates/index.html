@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather Dashboard</title>
+
+<script src="/static/lib/chart.js"></script>
+<script src="/static/lib/linechart.js"></script>
+<script src="/static/lib/socket.io.js"></script>
+<script src="/static/lib/core.js"></script>
+<script src="/static/lib/tweets.js"></script>
+<script src="/static/lib/tweets2.js"></script>
+<script src="/static/lib/form.js"></script>
+<link rel="stylesheet" href="/static/style/tweet.css">
+<style>
+    body{
+        background: #213e60;
+    }
+    .scroll-bg{
+        background: #213e60;
+        width: 580px;   
+        /* margin: 10% auto; */
+        /* padding: 40px; */
+        border-radius: 50px;
+        height: 300px;
+        font-size: 25px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-align: center;
+        
+    }
+
+    .scroll-bg2{
+        background: #213e60;
+        width: 580px;
+        /* margin: 10% auto; */
+        /* padding: 40px; */
+        border-radius: 50px;
+        /* height: 200px; */
+        font-size: 25px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(226, 0, 0);
+        text-align: center;
+    }
+
+    .scroll-div{    
+        background: #101357;
+        width: 550px;
+        height: 185px;  
+        overflow: hidden;
+        overflow-y:scroll;
+        border-radius: 20px;
+        color: white;
+        font-family: cursive;
+        font-size: 15px;       
+    }
+    .scroll-object{
+        color: white;
+        font-family: cursive;
+        font-size: 15px;
+        padding: 20px;
+    }
+    .container{
+        display: flex;
+        column-gap: 300px;
+    }
+    .container1 {
+        width: 350px;
+        /* margin-right: auto; */
+        padding: 1px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        margin-left: auto
+    }
+
+    input[type="text"] {
+        width: 50%;
+        padding: 5px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        }
+
+    .button {
+        padding: 10px;
+        background-color: #213e60;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+    /* .button:hover {
+        background-color: #0056b3;
+    } */
+
+    .header{
+        width: 100%;
+        height: 120px;
+        display:block;
+        background: #101357;
+        color: white;
+
+    }
+    .inner_header{
+        width:100%;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+        background: #101357;
+        display: flex;
+        column-gap: 15px;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 20px;
+        align-items: center;
+    }
+    .logo{
+        height: 100%;
+        display: table;
+        float: left;
+    }
+    input:active{  background-color:green}
+    img{
+        width: 10%;
+        margin-left: 40px;
+    }
+    /* .logo h1 span{
+        font-weight: 800;
+    } */
+    
+    ::-webkit-scrollbar {
+width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+border: 0px solid    linear-gradient(-5deg, #11133c, #000000);
+border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+background: white;  
+border-radius: 8px;
+}
+
+.container2{
+    align-items: center;
+}
+.graph{
+    height: 500px;
+    overflow: hidden;
+    width: 800px;
+    float: right;
+}
+
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="inner_header">
+            
+               
+                <img src="https://media.discordapp.net/attachments/1169642871935209603/1169642912544456794/Untitled_design_31.png?ex=655625d9&is=6543b0d9&hm=807b255e5d53dee0fd1f14a098be868aa98705054e74c8c054f2d72346857543&=&width=585&height=585" alt="">
+                <h1>Weather <br>
+                    Dashboard</h1>
+
+                    <div class="container1">
+                        <form id="myForm">
+                            <b>SEARCH:</b>
+                            <input id="clear" type="text" name="Name" placeholder="Enter a big city name!"  style="width:130px" >
+                            <input onclick="SearchWeather()" type="submit" class=button value="Get Weather">
+                            <div class="weather-info" id="weatherInfo"></div>
+                        </form>
+                    </div>
+                
+        </div>
+    </div>
+
+    <div class="container">
+        <div class = "scroll-bg2">
+            Dangerous events
+            <div class = "scroll-div" id = "tweetsss">
+                <div class = "scroll-object" id ="tweetsss">
+                    <script>
+                        var tweet_block = tweets('tweetsss');
+                        connect_block(tweet_block, 'danger_stream');
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class = "scroll-bg">
+            Relevant to your location
+            <div class = "scroll-div" id = "tweets">
+                <div class = "scroll-object" id ="tweets">
+                     <script>
+                        var tweet_block = tweets('tweets');
+                        connect_block(tweet_block, 'tweet_stream');
+                    </script>
+                    <script>
+                        form("myForm", {target: "/api/myForm", callback: function(){}});
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+        <div class="container">
+            <div class = "scroll-bg">
+                Top tweets
+                <div class = "scroll-div" id = "tweetss">
+                    <div class = "scroll-object" id ="tweetss">
+                        <script>
+                            var tweet_block = tweets2('tweetss');
+                            connect_block(tweet_block, 'tweet_top');
+                        </script>
+                    </div>
+                </div>
+            </div>
+   
+    <div class="graph">
+        <canvas id="myChart"></canvas>
+    </div>
+   
+    <script>
+        let chart = linechart('myChart', {
+            data: {
+                options: {
+                    plugins: {
+                        legend: {
+                        display: false
+                        }
+                    }
+                },
+                labels: [""],
+                datasets: [{
+                    label: 'Mm of rain',
+                    data: [],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: false
+                    }
+                },
+                responsive: true,
+            }
+        });
+       
+        connect_block(chart, 'linechart')
+        function SearchWeather(){
+            document.querySelector(
+                "#clear"
+            ).value =''
+        } 
+    </script>  
+
+    </div>  
+<!-- HERE THE CODE FOR THE GRAPH STARTS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+    
+
+</body>
+</html

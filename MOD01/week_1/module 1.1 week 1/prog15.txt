@@ -1,0 +1,94 @@
+; Danil Badarev 3210928
+; Sepp Beld 3185648
+
+.device atmega328p 		; what type of processor do we use? don’t change!
+.equ DDRB = 4 			; address of data direction register; don’t change!
+.equ PORTB = 5 			; address of output port register; don’t change!
+ldi r16,$20 			; register 16 now contains 0010 0000
+out DDRB,r16 			; write this to the data direction register to make
+				; the pin with the LED act as output
+
+		; The SOS signal (...---...)
+again1:
+ldi r27, 15			
+ldi r25, 3			; another counter
+ldi r26, 15			; speed control
+
+again: 				; this is not an instruction, but a label
+
+ldi r16,$20			; turn on the led
+out PORTB,r16
+
+
+ldi r17, 255			; counter
+noploop2:			; tag to go to
+dec r17				; subtract 1 from counter
+breq less2 			; if equal jump to less2
+
+ldi r20, 255			; counter
+noploop21:			; tag to go to
+dec r20				; subtract 1 from counter
+breq less21			; if equal jump to less21
+
+mov r22, r26			; delay control
+
+noploop22:			; tag to go to
+dec r22				; subtract 1 from counter
+breq less22			; if equal jump to less22
+;
+rjmp noploop22			; return to noploop tag
+less22:
+
+rjmp noploop21			; return to noploop tag
+less21:
+rjmp noploop2			; return to noploop tag
+
+less2:
+
+
+ldi r16,0			; turn off the led
+out PORTB,r16 			; and also write to the port itself, which switches
+
+ldi r18, 255			; counter
+noploop1:			; tag to go to
+dec r18				; subtract 1 from counter
+breq less1 			; if equal jump to less1
+				 
+mov r21, r26			; delay control
+
+noploop11:			; tag to go to
+dec r21				; subtract 1 from counter
+breq less11			; if equal jump to less11
+
+ldi r22, 255
+noploop12:			; tag to go to
+dec r23				; subtract 1 from counter
+breq less12			; if equal jump to less12
+;
+rjmp noploop12			; return to noploop tag
+less12:
+
+rjmp noploop11			; return to noploop tag
+less11:
+
+rjmp noploop1			; return to noploop tag
+less1:
+
+
+dec r25				
+breq stop1			; if
+				; indicated by the colon at the end
+rjmp again 			; infinite loop: jump back to the label
+
+stop1:
+
+
+cp r26, r27			;	
+breq change			;
+rjmp again1			;
+				; change the speed (15 -> 50, 50 -> 15)
+change:				;
+ldi r25, 3			; reset the counter
+ldi r26, 50			;
+
+rjmp again

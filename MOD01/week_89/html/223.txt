@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Box Layout</title>
+    <style>
+        .box {
+            width: 30%; /* Adjust the width as needed */
+            height: 200px; /* Adjust the height as needed */
+            border: 1px solid #000; /* Border for visualization */
+            display: inline-block; /* Make the boxes inline */
+            margin: 10px; /* Add some space between boxes */
+        }
+    </style>
+</head>
+<body>
+    <div class="box"> WE</div>
+    <div class="box">Will</div>
+    <div class="box">DIE</div>
+</body>
+</html>

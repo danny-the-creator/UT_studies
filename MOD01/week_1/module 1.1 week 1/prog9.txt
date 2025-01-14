@@ -1,0 +1,25 @@
+e0f0 e6e1 e800 8300 e008 8300 ; These instructions tell the processor to run slower
+e200		; ldi r16,$20 Register 16 now contains 0010 0000
+b904		; out 4,r16 We write r16 to the Data Direction Register:
+		; it makes the pin to which the LED is connected act as an
+		; output pin. This needs to be done only once: the pin
+		; remains an output as long as the program is running.
+e200
+b905 		; out 5,r16 Write that same 0010 0000 to the PORTB output register;
+		; thus the pin is really set to 1 now (5 volts), making
+		; the LED light up.
+e000
+b905		; Turn off the light
+
+0000
+0000
+0000
+0000
+0000		; Do nothing
+0000
+0000
+0000
+0000
+0000
+
+cff1 		; rjmp -15 Endless loop, don’t do anything anymore

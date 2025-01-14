@@ -1,0 +1,4 @@
+e200		; r16 32
+
+5208		; sub. 40 from r16
+940e 0200 	; send r16 to laptop
