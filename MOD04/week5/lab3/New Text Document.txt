@@ -1,0 +1,30 @@
+ex3)
+S1 : r1(x) r2(y) r3(z) w1(x) w2(x) w2(y) w3(z) r3(y) w3(y)		s1 is equivalent with s2
+
+S2 : r1(x) r2(y) r3(z) w1(x) w3(z) w2(x) w2(y) r3(y) w3(y)		s2 is equivalent with s3
+
+S3 : r1(x) w1(x) r2(y) w2(x) w2(y) r3(z) w3(z) r3(y) w3(y)		s1 is equivalent with s3
+
+									all 3 of them are serializable
+
+ex4)
+w1(x) r2(x) w2(y) w3(y) w2(x) c2 w1(x) c1 r3(x) c3
+
+1. w1(x) - no locks, puts write lock on x
+2. r2(x) - is blocked (write lock)
+3. w2(y) - is blocked (waits)
+4. w3(y) - no locks, puts write lock on y
+5. w2(x) - is blocked (waits)
+6. c2 - skipped
+7. w1(x) - x already has a lock of the same transaction (not blocked)
+8. c1 - commited
+
+9. r2(x) - no locks, puts read lock on x
+10. w2(y) - is blocked (write lock)
+11. w2(x) - is blocked (waits)
+12. r3(x) - only read lock (not blocked), puts read lock
+13. c3 - commited
+
+14. w2(y) - no locks, puts write lock
+15. w2(x) - x has a read lock from the same transaction (not blocked) puts write lock
+16. c2 - commited 

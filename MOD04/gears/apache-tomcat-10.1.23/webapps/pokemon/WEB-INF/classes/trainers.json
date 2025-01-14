@@ -1,0 +1,25 @@
+[ {
+  "id" : "1",
+  "name" : "Red",
+  "created" : "24/04/2024",
+  "lastUpDate" : "24/04/2024",
+  "profileUrl" : "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Lets_Go_Pikachu_Eevee_Red.png/500px-Lets_Go_Pikachu_Eevee_Red.png"
+}, {
+  "id" : "2",
+  "name" : "Blue",
+  "created" : "24/04/2024",
+  "lastUpDate" : "24/04/2024",
+  "profileUrl" : "https://archives.bulbagarden.net/media/upload/thumb/1/1a/Lets_Go_Pikachu_Eevee_Blue.png/320px-Lets_Go_Pikachu_Eevee_Blue.png"
+}, {
+  "id" : "3",
+  "name" : "Misty",
+  "created" : "24/04/2024",
+  "lastUpDate" : "24/04/2024",
+  "profileUrl" : "https://archives.bulbagarden.net/media/upload/thumb/f/f6/Lets_Go_Pikachu_Eevee_Misty.png/367px-Lets_Go_Pikachu_Eevee_Misty.png"
+}, {
+  "id" : "4",
+  "name" : "Brock",
+  "created" : "24/04/2024",
+  "lastUpDate" : "24/04/2024",
+  "profileUrl" : "https://archives.bulbagarden.net/media/upload/thumb/a/a6/Lets_Go_Pikachu_Eevee_Brock.png/243px-Lets_Go_Pikachu_Eevee_Brock.png"
+} ]

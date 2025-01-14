@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Red",
+    "id": 1,
+    "created": "24/04/2024",
+    "lastUpDate": "24/04/2024",
+    "profileUrl": "/pokemon/images/red.png"
+  },
+  {
+    "name": "Blue",
+    "id": 2,
+    "created": "24/04/2024",
+    "lastUpDate": "24/04/2024",
+    "profileUrl": "/pokemon/images/blue.png"
+  },
+  {
+    "name": "Misty",
+    "id": 3,
+    "created": "24/04/2024",
+    "lastUpDate": "24/04/2024",
+    "profileUrl": "/pokemon/images/misty.png"
+  },
+  {
+    "name": "Brock",
+    "id": 4,
+    "created": "24/04/2024",
+    "lastUpDate": "24/04/2024",
+    "profileUrl": "/pokemon/images/brock.png"
+  }
+]
