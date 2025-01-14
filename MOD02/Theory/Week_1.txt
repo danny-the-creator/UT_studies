@@ -1,0 +1,32 @@
+1.1
+An automatic sudoku solver -> Prescriptive model: scheme describes all components of the system
+A student calendar app with scheduled lectures. -> Predictive model: picture shows an example of how schedule lecture may look like.
+An augmented reality set. -> Descriptive model: manual shows how to use VR glasses corectly.
+Crowd size indication system for public transport. -> Descriptive model: manual explains how this system is working and how to use it correctly
+
+1.2
+Untappd 
+Big organisation - Have a test coverage of 97% and conduct unit testing biweekly.
+Small organisation - Ensure the error rate in predicting user's favorite beer is low
+
+An augmented reality set
+Big organisation - Reduce the response time to 5 ms when there are more than 1500 people on one server
+Small organisation - Ensure in smooth transition when immersed in virtual reality and have a user friendly interface
+
+An interactive sudoku playing app
+Big organisation - Making a survey based on 100 games to improve AI for single player every first Monday of the Month.
+Small organisation - Ensure unit testing is done after every bug report and take into account the opinion of gamers to make the system user friendly
+
+1.3
+A student calendar app with scheduled lectures - Student
+An augmented reality set - Gamer
+Crowd size indication system for public transport - Сonductor
+
+1.4
+As a conductor, I want to see the total number of passengers in my phone, so that I could not be distracted from work
+- As a gamer, I want not to see the settings button, so I could fully immerse myself in virtual reality.
+- In order to not be hurt during use of equipment as a gamer, I want to get notifications if I am to close to an object.
+As a student, I want to get notifications about upcoming tests and deadlines in order not to miss them.
+
+1.5
+
