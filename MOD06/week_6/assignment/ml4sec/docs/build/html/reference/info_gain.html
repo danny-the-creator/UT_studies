@@ -1,0 +1,363 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Info Gain &mdash; ML4sec 2020 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Contact" href="../contact.html" />
+    <link rel="prev" title="Submit" href="submit.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ML4sec
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="reference.html">Assignment</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="reference.html#ml4sec.Assignment"><code class="docutils literal notranslate"><span class="pre">Assignment</span></code></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="reference.html#reference">Reference</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="load.html">Load data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="extract.html">Extract features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scale.html">Scale features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="kernel.html">Kernel functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="split.html">Split data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="metrics.html">Metrics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="submit.html">Submit</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Info Gain</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ml4sec.Assignment.entropy"><code class="docutils literal notranslate"><span class="pre">Assignment.entropy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ml4sec.Assignment.conditional_entropy"><code class="docutils literal notranslate"><span class="pre">Assignment.conditional_entropy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ml4sec.Assignment.info_gain"><code class="docutils literal notranslate"><span class="pre">Assignment.info_gain()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#visualisation-methods">Visualisation methods</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#submitting">Submitting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="reference.html#repair">Repair</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Info Gain</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ml4sec.Assignment.entropy"><code class="docutils literal notranslate"><span class="pre">Assignment.entropy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ml4sec.Assignment.conditional_entropy"><code class="docutils literal notranslate"><span class="pre">Assignment.conditional_entropy()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ml4sec.Assignment.info_gain"><code class="docutils literal notranslate"><span class="pre">Assignment.info_gain()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#visualisation-methods">Visualisation methods</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#submitting">Submitting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contact.html">Contact</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ML4sec</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="reference.html">Assignment</a> &raquo;</li>
+        
+      <li>Info Gain</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/reference/info_gain.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="info-gain">
+<h1>Info Gain<a class="headerlink" href="#info-gain" title="Permalink to this heading">¶</a></h1>
+<p>For computing the information gain, students must implement the <code class="xref py py-meth docutils literal notranslate"><span class="pre">entropy()</span></code> and <code class="xref py py-meth docutils literal notranslate"><span class="pre">conditional_entropy()</span></code> functions.
+Both of these functions are used by the <code class="xref py py-meth docutils literal notranslate"><span class="pre">info_gain()</span></code> method to compute the information gain.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="ml4sec.Assignment.entropy">
+<span class="sig-prename descclassname"><span class="pre">Assignment.</span></span><span class="sig-name descname"><span class="pre">entropy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">X</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#ml4sec.Assignment.entropy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Computes the entropy of a variable X: H(X).</p>
+<p>The entropy is defined as:</p>
+<div class="math notranslate nohighlight">
+\[H(X) = - \sum_{i=1}^n p(x_i) \cdot \log_2 p(x_i)\]</div>
+<p>where <span class="math notranslate nohighlight">\(p(x_i)\)</span> is the probability of observing <span class="math notranslate nohighlight">\(x_i\)</span>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>X</strong> (<em>np.array</em><em> of </em><em>shape=</em><em>(</em><em>n_samples</em><em>,</em><em>)</em>) – Observed samples for which to compute the entropy.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>result</strong> – Entropy of X.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ml4sec.Assignment.conditional_entropy">
+<span class="sig-prename descclassname"><span class="pre">Assignment.</span></span><span class="sig-name descname"><span class="pre">conditional_entropy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">X</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">Y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#ml4sec.Assignment.conditional_entropy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Computes the conditional entropy of a variable Y given the observation X:
+H(Y|X).</p>
+<p>The conditional entropy is defined as:</p>
+<div class="math notranslate nohighlight">
+\[H(Y|X) = - \sum_{x \in X, y \in Y} p(x, y) \cdot \log_2 \frac{p(x, y)}{p(x)}\]</div>
+<p>where <span class="math notranslate nohighlight">\(p(x)\)</span> is the probability of observing <span class="math notranslate nohighlight">\(x\)</span> and
+<span class="math notranslate nohighlight">\(p(x, y)\)</span> is the joint probability, i.e. the probability of
+observing both <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> simultaneously.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X</strong> (<em>np.array</em><em> of </em><em>shape=</em><em>(</em><em>n_samples</em><em>,</em><em>)</em>) – Observations X.</p></li>
+<li><p><strong>Y</strong> (<em>np.array</em><em> of </em><em>shape=</em><em>(</em><em>n_samples</em><em>,</em><em>)</em>) – Corresponding observation Y for which to compute the conditional
+entropy.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>result</strong> – Conditional entropy of Y given observation X.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="ml4sec.Assignment.info_gain">
+<span class="sig-prename descclassname"><span class="pre">Assignment.</span></span><span class="sig-name descname"><span class="pre">info_gain</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">features</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">labels</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">numpy.ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#ml4sec.Assignment.info_gain" title="Permalink to this definition">¶</a></dt>
+<dd><p>Computes the information gain for a feature with respect to the labels.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>features</strong> (<em>np.array</em><em> of </em><em>shape=</em><em>(</em><em>n_samples</em><em>,</em><em>)</em>) – Feature for which to compute the information gain (X).</p></li>
+<li><p><strong>labels</strong> (<em>np.array</em><em> of </em><em>shape=</em><em>(</em><em>n_samples</em><em>,</em><em>)</em>) – Labels corresponding to features for which to compute the info gain
+(Y).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>result</strong> – Information gain.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="section" id="visualisation-methods">
+<h2>Visualisation methods<a class="headerlink" href="#visualisation-methods" title="Permalink to this heading">¶</a></h2>
+<p>To compute the information gain for each feature extracted in your <code class="xref py py-meth docutils literal notranslate"><span class="pre">extract()</span></code> function, we provide the <code class="xref py py-meth docutils literal notranslate"><span class="pre">show_info_gain()</span></code> method.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="ml4sec.Assignment.show_info_gain">
+<span class="sig-prename descclassname"><span class="pre">Assignment.</span></span><span class="sig-name descname"><span class="pre">show_info_gain</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bins</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">20</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#ml4sec.Assignment.show_info_gain" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shows the information gain for all computed features.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>bins</strong> (<em>int</em><em>, </em><em>default=20</em>) – Number of bins in which to catagorize each individual value.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="submitting">
+<h2>Submitting<a class="headerlink" href="#submitting" title="Permalink to this heading">¶</a></h2>
+<p>To submit the repair assignment, please use the following <code class="xref py py-meth docutils literal notranslate"><span class="pre">submit_repair()</span></code> function.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please remember to submit <strong>both</strong> the <code class="xref py py-meth docutils literal notranslate"><span class="pre">submit_repair()</span></code> function as well as the <code class="xref py py-meth docutils literal notranslate"><span class="pre">submit()</span></code> function (see <a class="reference internal" href="submit.html#submit"><span class="std std-ref">Submit</span></a>) for the entire assignment.</p>
+</div>
+<dl class="py method">
+<dt class="sig sig-object py" id="ml4sec.Assignment.submit_repair">
+<span class="sig-prename descclassname"><span class="pre">Assignment.</span></span><span class="sig-name descname"><span class="pre">submit_repair</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">student_numbers</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">server</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'https://ml4sec.eemcs.utwente.nl/repair'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">debug</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#ml4sec.Assignment.submit_repair" title="Permalink to this definition">¶</a></dt>
+<dd><p>Submit your info gain implementation to the server to check if your
+computation is correct. The result will print whether you passed the
+repair or not.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>student_numbers</strong> (<em>list</em>) – List of all student numbers in the group as a string, e.g.,
+‘s1234567’. Please use your actual student numbers, we have build in
+checks to prevent fraud.</p></li>
+<li><p><strong>server</strong> (string, default=”<a class="reference external" href="https://ml4sec.eemcs.utwente.nl/repair">https://ml4sec.eemcs.utwente.nl/repair</a>”) – Address of server to submit assignment.</p></li>
+<li><p><strong>debug</strong> (<em>boolean</em><em>, </em><em>default=False</em>) – If True, prints the computed results</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../contact.html" class="btn btn-neutral float-right" title="Contact" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="submit.html" class="btn btn-neutral float-left" title="Submit" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Thijs van Ede.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

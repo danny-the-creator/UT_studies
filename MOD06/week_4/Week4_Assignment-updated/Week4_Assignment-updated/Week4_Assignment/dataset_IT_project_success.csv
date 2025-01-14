@@ -1,0 +1,1001 @@
+Technological Complexity,Staff Expertise,Project Size,Requirements Quality,Stakeholder Management,Market Conditions,Project Management Quality,Project Success
+Medium,Beginner,Very Large,Poor,Average,Unfavorable,Good,Success
+High,Beginner,Very Small,Average,Poor,Very Unfavorable,Average,Success
+Medium,Beginner,Large,Average,Poor,Unfavorable,Excellent,Failure
+Medium,Expert,Small,Below Average,Good,Very Unfavorable,Good,Success
+Low,Novice,Very Small,Average,Good,Favorable,Very Poor,Success
+High,Beginner,Very Small,Average,Good,Very Unfavorable,Very Poor,Failure
+High,Intermediate,Small,Poor,Average,Favorable,Excellent,Success
+Very Low,Expert,Very Small,Below Average,Below Average,Favorable,Good,Success
+Very High,Novice,Large,Poor,Average,Favorable,Excellent,Success
+High,Expert,Large,Excellent,Poor,Unfavorable,Average,Failure
+High,Advanced,Large,Below Average,Good,Unfavorable,Excellent,Success
+Very Low,Beginner,Very Large,Average,Excellent,Unfavorable,Very Poor,Failure
+Very Low,Intermediate,Very Small,Below Average,Below Average,Neutral,Poor,Failure
+Low,Novice,Large,Below Average,Average,Neutral,Good,Failure
+Very High,Expert,Very Large,Excellent,Below Average,Very Favorable,Poor,Failure
+Very High,Novice,Large,Poor,Excellent,Neutral,Very Poor,Failure
+Low,Advanced,Large,Below Average,Good,Unfavorable,Poor,Failure
+Very Low,Intermediate,Small,Below Average,Good,Neutral,Average,Failure
+Very Low,Expert,Large,Good,Poor,Neutral,Poor,Failure
+Very Low,Advanced,Large,Below Average,Average,Neutral,Excellent,Failure
+High,Intermediate,Large,Poor,Poor,Very Favorable,Very Poor,Failure
+Very High,Beginner,Large,Good,Below Average,Favorable,Good,Success
+Very High,Novice,Large,Average,Excellent,Unfavorable,Very Poor,Failure
+Medium,Advanced,Medium,Average,Excellent,Unfavorable,Excellent,Success
+Medium,Novice,Medium,Below Average,Poor,Very Favorable,Very Poor,Failure
+High,Novice,Very Large,Poor,Poor,Very Unfavorable,Poor,Failure
+High,Advanced,Very Large,Below Average,Below Average,Favorable,Poor,Success
+Very High,Advanced,Very Large,Average,Good,Very Favorable,Average,Success
+Medium,Expert,Medium,Below Average,Excellent,Unfavorable,Excellent,Success
+Low,Intermediate,Very Large,Below Average,Poor,Neutral,Excellent,Failure
+Very Low,Beginner,Small,Average,Excellent,Very Favorable,Good,Success
+Very High,Intermediate,Very Small,Average,Good,Very Unfavorable,Good,Failure
+Low,Beginner,Small,Good,Excellent,Very Favorable,Good,Success
+High,Beginner,Very Small,Good,Good,Very Unfavorable,Excellent,Success
+Very Low,Expert,Very Small,Poor,Good,Very Favorable,Average,Success
+High,Intermediate,Large,Poor,Average,Very Unfavorable,Good,Failure
+Medium,Advanced,Very Large,Average,Below Average,Very Favorable,Poor,Failure
+Low,Novice,Very Small,Poor,Excellent,Very Unfavorable,Good,Success
+Very Low,Expert,Large,Poor,Good,Very Unfavorable,Good,Success
+Very Low,Expert,Small,Good,Excellent,Very Favorable,Excellent,Success
+High,Expert,Large,Average,Poor,Unfavorable,Very Poor,Failure
+Very High,Advanced,Very Small,Good,Below Average,Very Favorable,Very Poor,Failure
+Low,Novice,Large,Below Average,Below Average,Unfavorable,Poor,Failure
+Very Low,Beginner,Large,Average,Poor,Very Unfavorable,Good,Failure
+Very Low,Advanced,Small,Excellent,Poor,Very Favorable,Poor,Failure
+Medium,Intermediate,Small,Poor,Excellent,Very Unfavorable,Poor,Success
+Low,Intermediate,Very Small,Poor,Average,Unfavorable,Good,Failure
+Low,Advanced,Large,Average,Excellent,Very Favorable,Poor,Success
+Very Low,Expert,Medium,Excellent,Excellent,Very Favorable,Poor,Success
+Low,Advanced,Large,Average,Good,Very Favorable,Average,Success
+Low,Novice,Very Small,Poor,Excellent,Favorable,Poor,Failure
+Very Low,Beginner,Medium,Poor,Below Average,Unfavorable,Very Poor,Failure
+Very Low,Beginner,Large,Average,Average,Very Unfavorable,Average,Failure
+High,Beginner,Small,Below Average,Poor,Very Unfavorable,Excellent,Success
+High,Beginner,Very Small,Good,Below Average,Very Favorable,Good,Success
+High,Expert,Large,Average,Poor,Neutral,Excellent,Failure
+High,Intermediate,Small,Below Average,Good,Neutral,Good,Failure
+Low,Intermediate,Very Small,Excellent,Excellent,Favorable,Average,Success
+Medium,Advanced,Medium,Poor,Good,Very Unfavorable,Excellent,Success
+Very Low,Beginner,Medium,Poor,Poor,Very Favorable,Very Poor,Failure
+Very Low,Intermediate,Very Small,Average,Excellent,Favorable,Poor,Failure
+Very High,Novice,Small,Excellent,Excellent,Very Favorable,Good,Success
+Medium,Advanced,Medium,Average,Good,Very Unfavorable,Excellent,Success
+Medium,Expert,Very Small,Good,Poor,Neutral,Good,Failure
+Very Low,Intermediate,Large,Average,Average,Unfavorable,Poor,Failure
+Medium,Beginner,Very Small,Poor,Good,Unfavorable,Average,Failure
+Very High,Expert,Very Small,Poor,Below Average,Very Favorable,Average,Success
+Low,Novice,Very Small,Below Average,Below Average,Favorable,Very Poor,Failure
+High,Novice,Small,Good,Below Average,Unfavorable,Very Poor,Failure
+Very High,Novice,Very Large,Below Average,Poor,Favorable,Average,Success
+High,Expert,Large,Good,Below Average,Very Unfavorable,Good,Failure
+Very Low,Intermediate,Small,Poor,Below Average,Very Favorable,Good,Success
+Low,Intermediate,Very Small,Average,Excellent,Favorable,Good,Success
+Very High,Beginner,Large,Poor,Excellent,Very Favorable,Good,Success
+Medium,Expert,Small,Below Average,Excellent,Unfavorable,Poor,Success
+Low,Intermediate,Medium,Below Average,Poor,Neutral,Average,Failure
+Very High,Advanced,Large,Average,Below Average,Very Unfavorable,Excellent,Failure
+Low,Beginner,Very Large,Excellent,Good,Unfavorable,Average,Failure
+Very Low,Intermediate,Very Large,Poor,Below Average,Very Favorable,Very Poor,Success
+Medium,Advanced,Large,Below Average,Excellent,Favorable,Good,Success
+High,Beginner,Large,Excellent,Below Average,Very Favorable,Average,Success
+High,Novice,Very Small,Excellent,Excellent,Favorable,Good,Success
+High,Novice,Very Small,Poor,Below Average,Very Favorable,Good,Success
+Very High,Advanced,Very Small,Below Average,Poor,Very Unfavorable,Poor,Failure
+Low,Novice,Large,Excellent,Average,Neutral,Poor,Failure
+Medium,Advanced,Very Large,Below Average,Average,Favorable,Good,Success
+Medium,Beginner,Medium,Excellent,Below Average,Unfavorable,Average,Failure
+Very High,Intermediate,Very Large,Poor,Good,Neutral,Excellent,Success
+Medium,Beginner,Very Small,Poor,Below Average,Very Unfavorable,Poor,Failure
+Medium,Advanced,Small,Below Average,Below Average,Favorable,Excellent,Success
+Low,Expert,Very Large,Poor,Average,Very Favorable,Excellent,Failure
+Low,Expert,Very Small,Good,Below Average,Very Favorable,Good,Failure
+Low,Advanced,Large,Poor,Below Average,Neutral,Poor,Failure
+Very High,Novice,Medium,Average,Excellent,Very Favorable,Good,Success
+Very High,Advanced,Small,Poor,Below Average,Neutral,Poor,Failure
+Very High,Intermediate,Very Large,Below Average,Excellent,Neutral,Very Poor,Failure
+Medium,Beginner,Very Small,Excellent,Poor,Unfavorable,Average,Failure
+High,Advanced,Very Large,Good,Good,Unfavorable,Very Poor,Failure
+Medium,Intermediate,Medium,Below Average,Below Average,Unfavorable,Average,Failure
+Low,Expert,Small,Below Average,Excellent,Very Favorable,Average,Success
+High,Advanced,Very Large,Excellent,Excellent,Favorable,Average,Success
+Very Low,Novice,Medium,Excellent,Below Average,Favorable,Poor,Failure
+High,Advanced,Small,Average,Average,Unfavorable,Poor,Failure
+Low,Expert,Very Large,Below Average,Average,Unfavorable,Average,Failure
+Low,Intermediate,Very Small,Good,Below Average,Favorable,Very Poor,Failure
+Low,Advanced,Medium,Average,Below Average,Unfavorable,Excellent,Failure
+Low,Advanced,Very Small,Average,Average,Neutral,Average,Failure
+Very Low,Novice,Medium,Good,Below Average,Very Unfavorable,Excellent,Failure
+High,Advanced,Very Small,Excellent,Below Average,Neutral,Very Poor,Failure
+Very Low,Beginner,Very Small,Excellent,Average,Favorable,Excellent,Success
+Medium,Advanced,Very Large,Below Average,Excellent,Unfavorable,Poor,Failure
+High,Intermediate,Very Large,Average,Poor,Very Unfavorable,Very Poor,Failure
+Medium,Beginner,Very Small,Good,Below Average,Unfavorable,Poor,Failure
+Medium,Novice,Medium,Good,Average,Neutral,Excellent,Success
+Medium,Intermediate,Very Large,Good,Below Average,Unfavorable,Good,Failure
+Low,Novice,Very Large,Average,Below Average,Neutral,Very Poor,Failure
+High,Advanced,Very Small,Poor,Excellent,Very Unfavorable,Good,Success
+Very High,Advanced,Medium,Poor,Poor,Very Favorable,Average,Success
+High,Advanced,Very Small,Below Average,Below Average,Very Favorable,Good,Success
+Low,Expert,Large,Average,Poor,Very Unfavorable,Poor,Failure
+High,Expert,Very Small,Average,Average,Unfavorable,Poor,Failure
+Low,Expert,Medium,Poor,Average,Very Favorable,Excellent,Success
+High,Beginner,Very Large,Excellent,Good,Neutral,Excellent,Failure
+High,Expert,Very Large,Poor,Excellent,Very Favorable,Average,Success
+Medium,Advanced,Small,Average,Average,Neutral,Poor,Failure
+Very Low,Advanced,Very Small,Good,Below Average,Very Unfavorable,Very Poor,Failure
+High,Novice,Very Large,Average,Below Average,Very Favorable,Average,Failure
+Very High,Intermediate,Large,Below Average,Average,Very Unfavorable,Good,Failure
+Very Low,Intermediate,Very Large,Poor,Good,Favorable,Very Poor,Failure
+Very High,Beginner,Large,Below Average,Excellent,Very Unfavorable,Average,Failure
+High,Intermediate,Very Large,Poor,Good,Very Favorable,Good,Success
+Low,Beginner,Very Large,Poor,Poor,Neutral,Very Poor,Failure
+High,Novice,Medium,Below Average,Excellent,Very Unfavorable,Excellent,Success
+Medium,Advanced,Very Large,Below Average,Excellent,Very Favorable,Poor,Success
+Low,Advanced,Large,Good,Below Average,Unfavorable,Good,Failure
+Very High,Beginner,Medium,Below Average,Excellent,Neutral,Poor,Success
+High,Expert,Very Large,Excellent,Excellent,Unfavorable,Good,Success
+High,Novice,Medium,Average,Below Average,Unfavorable,Poor,Failure
+Low,Advanced,Very Large,Good,Excellent,Favorable,Good,Success
+High,Advanced,Small,Poor,Good,Very Unfavorable,Poor,Success
+Very Low,Novice,Medium,Excellent,Excellent,Unfavorable,Excellent,Success
+Very High,Beginner,Large,Below Average,Average,Neutral,Poor,Failure
+High,Expert,Small,Below Average,Excellent,Unfavorable,Good,Success
+High,Beginner,Very Large,Excellent,Excellent,Favorable,Poor,Failure
+Low,Novice,Very Large,Average,Poor,Very Favorable,Poor,Failure
+Medium,Intermediate,Small,Excellent,Poor,Neutral,Average,Failure
+Very High,Beginner,Very Small,Poor,Good,Neutral,Good,Failure
+Very Low,Intermediate,Small,Excellent,Poor,Very Favorable,Poor,Failure
+Very Low,Novice,Large,Good,Good,Favorable,Good,Success
+Low,Intermediate,Very Large,Excellent,Poor,Favorable,Average,Success
+Very Low,Advanced,Medium,Excellent,Poor,Very Unfavorable,Good,Success
+Medium,Intermediate,Very Small,Poor,Below Average,Neutral,Good,Failure
+High,Expert,Medium,Poor,Good,Very Unfavorable,Good,Failure
+Very High,Expert,Small,Average,Excellent,Unfavorable,Very Poor,Failure
+High,Novice,Very Large,Poor,Poor,Very Unfavorable,Poor,Failure
+Low,Expert,Large,Poor,Good,Very Unfavorable,Very Poor,Failure
+High,Intermediate,Small,Poor,Excellent,Very Favorable,Poor,Failure
+Medium,Advanced,Small,Excellent,Poor,Very Unfavorable,Poor,Failure
+Very Low,Novice,Medium,Excellent,Average,Unfavorable,Average,Failure
+Very High,Beginner,Medium,Poor,Excellent,Very Unfavorable,Very Poor,Failure
+Medium,Advanced,Very Large,Below Average,Poor,Favorable,Very Poor,Failure
+Low,Beginner,Medium,Poor,Poor,Very Unfavorable,Excellent,Failure
+Very High,Novice,Very Small,Poor,Excellent,Very Favorable,Average,Failure
+High,Beginner,Very Large,Average,Good,Very Favorable,Poor,Failure
+Low,Advanced,Large,Poor,Below Average,Very Favorable,Poor,Failure
+High,Expert,Very Small,Poor,Poor,Very Unfavorable,Excellent,Failure
+Medium,Novice,Small,Average,Good,Unfavorable,Poor,Success
+Medium,Expert,Medium,Poor,Average,Neutral,Very Poor,Failure
+Low,Expert,Large,Poor,Excellent,Very Favorable,Excellent,Success
+Very Low,Expert,Very Large,Good,Good,Very Unfavorable,Excellent,Success
+Low,Advanced,Medium,Average,Good,Neutral,Poor,Success
+Very Low,Intermediate,Very Small,Average,Good,Favorable,Poor,Success
+Low,Expert,Small,Good,Below Average,Favorable,Excellent,Success
+Low,Intermediate,Small,Average,Below Average,Very Favorable,Very Poor,Failure
+Very High,Novice,Medium,Below Average,Average,Very Favorable,Poor,Failure
+Very Low,Beginner,Very Large,Excellent,Poor,Favorable,Poor,Failure
+Very Low,Expert,Very Large,Excellent,Below Average,Very Favorable,Excellent,Success
+Medium,Intermediate,Medium,Average,Below Average,Favorable,Average,Success
+High,Novice,Medium,Excellent,Below Average,Very Unfavorable,Very Poor,Failure
+Medium,Advanced,Medium,Poor,Below Average,Neutral,Poor,Success
+Very Low,Novice,Large,Poor,Average,Very Unfavorable,Poor,Failure
+Very High,Advanced,Medium,Below Average,Good,Favorable,Average,Success
+Very Low,Beginner,Large,Good,Excellent,Very Unfavorable,Poor,Failure
+High,Beginner,Very Small,Excellent,Excellent,Favorable,Good,Success
+High,Intermediate,Medium,Below Average,Good,Very Unfavorable,Excellent,Success
+Low,Advanced,Medium,Excellent,Poor,Neutral,Poor,Failure
+Very High,Advanced,Very Large,Poor,Average,Favorable,Good,Success
+Medium,Beginner,Medium,Below Average,Average,Very Favorable,Poor,Success
+Very High,Novice,Large,Below Average,Below Average,Very Favorable,Excellent,Success
+Low,Novice,Large,Good,Good,Very Favorable,Good,Success
+Very Low,Intermediate,Medium,Poor,Below Average,Favorable,Good,Failure
+High,Beginner,Large,Below Average,Excellent,Very Favorable,Excellent,Success
+Very Low,Beginner,Medium,Poor,Excellent,Unfavorable,Average,Failure
+Very Low,Expert,Very Small,Poor,Good,Neutral,Average,Failure
+Low,Intermediate,Large,Average,Excellent,Unfavorable,Excellent,Failure
+Medium,Beginner,Large,Average,Average,Favorable,Poor,Failure
+Very Low,Expert,Large,Good,Below Average,Favorable,Very Poor,Failure
+High,Advanced,Large,Poor,Average,Neutral,Poor,Failure
+High,Expert,Medium,Average,Good,Very Unfavorable,Good,Failure
+Medium,Beginner,Medium,Excellent,Good,Neutral,Very Poor,Failure
+Medium,Novice,Very Small,Poor,Excellent,Unfavorable,Good,Success
+Low,Intermediate,Medium,Below Average,Poor,Unfavorable,Good,Failure
+Very High,Advanced,Large,Poor,Poor,Unfavorable,Excellent,Success
+High,Novice,Very Small,Below Average,Good,Unfavorable,Average,Failure
+Very Low,Intermediate,Small,Good,Average,Very Unfavorable,Average,Failure
+Low,Advanced,Very Large,Average,Below Average,Favorable,Average,Success
+Medium,Advanced,Very Small,Excellent,Poor,Favorable,Average,Success
+Very Low,Beginner,Very Large,Average,Poor,Neutral,Very Poor,Failure
+Very High,Expert,Large,Below Average,Average,Favorable,Average,Success
+Medium,Novice,Small,Good,Good,Favorable,Excellent,Success
+Very High,Expert,Very Large,Below Average,Excellent,Favorable,Poor,Failure
+Very High,Beginner,Very Small,Good,Average,Very Unfavorable,Good,Failure
+High,Beginner,Medium,Good,Good,Very Unfavorable,Poor,Failure
+High,Novice,Very Large,Excellent,Below Average,Favorable,Very Poor,Failure
+Very High,Advanced,Medium,Excellent,Good,Unfavorable,Excellent,Success
+High,Intermediate,Very Large,Average,Excellent,Favorable,Good,Success
+Medium,Advanced,Large,Excellent,Good,Neutral,Very Poor,Failure
+Very High,Expert,Medium,Below Average,Good,Very Favorable,Excellent,Success
+Very High,Novice,Small,Below Average,Average,Neutral,Good,Failure
+Low,Beginner,Very Small,Good,Excellent,Very Favorable,Average,Success
+Low,Advanced,Small,Average,Excellent,Very Unfavorable,Good,Success
+Low,Novice,Very Large,Average,Poor,Very Unfavorable,Very Poor,Failure
+Low,Intermediate,Very Large,Average,Poor,Favorable,Very Poor,Failure
+Very Low,Beginner,Small,Good,Below Average,Very Favorable,Good,Success
+Low,Advanced,Very Large,Excellent,Below Average,Very Unfavorable,Excellent,Failure
+Medium,Beginner,Large,Poor,Excellent,Very Unfavorable,Excellent,Success
+Very Low,Expert,Very Small,Below Average,Good,Favorable,Average,Success
+Medium,Intermediate,Large,Good,Poor,Very Unfavorable,Very Poor,Failure
+Low,Intermediate,Medium,Below Average,Below Average,Very Favorable,Average,Success
+Very High,Intermediate,Very Small,Excellent,Excellent,Neutral,Average,Failure
+Very Low,Expert,Very Small,Excellent,Good,Very Unfavorable,Excellent,Success
+Very High,Advanced,Very Large,Good,Average,Unfavorable,Average,Failure
+Medium,Advanced,Medium,Good,Good,Very Unfavorable,Poor,Success
+Medium,Advanced,Small,Poor,Poor,Neutral,Average,Failure
+Very Low,Advanced,Medium,Average,Good,Favorable,Average,Failure
+Medium,Advanced,Small,Poor,Poor,Favorable,Very Poor,Failure
+Very Low,Novice,Medium,Good,Average,Neutral,Good,Failure
+Medium,Expert,Medium,Poor,Good,Favorable,Average,Success
+Very High,Intermediate,Small,Below Average,Average,Very Unfavorable,Average,Failure
+High,Advanced,Large,Excellent,Poor,Very Favorable,Good,Success
+Low,Advanced,Very Large,Excellent,Poor,Very Unfavorable,Very Poor,Failure
+Low,Intermediate,Very Large,Poor,Poor,Very Favorable,Very Poor,Failure
+High,Intermediate,Very Large,Average,Excellent,Unfavorable,Poor,Failure
+High,Novice,Small,Good,Poor,Neutral,Excellent,Failure
+Very Low,Expert,Very Large,Excellent,Below Average,Neutral,Very Poor,Failure
+Medium,Beginner,Very Small,Poor,Good,Very Unfavorable,Very Poor,Failure
+Very High,Novice,Medium,Good,Excellent,Favorable,Poor,Failure
+Low,Beginner,Small,Excellent,Average,Neutral,Good,Failure
+High,Novice,Small,Poor,Average,Very Favorable,Very Poor,Failure
+High,Expert,Very Small,Good,Below Average,Favorable,Very Poor,Failure
+High,Expert,Medium,Average,Good,Very Favorable,Average,Success
+Medium,Beginner,Very Large,Poor,Below Average,Neutral,Excellent,Failure
+Very High,Advanced,Small,Poor,Good,Very Favorable,Good,Success
+High,Advanced,Small,Poor,Average,Unfavorable,Average,Failure
+Very High,Advanced,Small,Excellent,Below Average,Very Favorable,Excellent,Success
+Low,Beginner,Small,Average,Average,Very Unfavorable,Good,Failure
+Very Low,Advanced,Small,Average,Good,Unfavorable,Excellent,Success
+Very Low,Intermediate,Small,Poor,Below Average,Very Unfavorable,Good,Failure
+Low,Intermediate,Very Small,Poor,Below Average,Very Favorable,Very Poor,Failure
+Very Low,Expert,Small,Average,Excellent,Favorable,Good,Success
+High,Beginner,Large,Good,Excellent,Very Unfavorable,Poor,Failure
+Medium,Advanced,Medium,Poor,Good,Favorable,Average,Success
+Very Low,Intermediate,Medium,Average,Good,Unfavorable,Poor,Failure
+Low,Advanced,Very Large,Excellent,Below Average,Very Favorable,Excellent,Success
+Medium,Novice,Small,Average,Excellent,Favorable,Excellent,Success
+Low,Advanced,Small,Good,Good,Very Unfavorable,Poor,Failure
+High,Expert,Very Small,Poor,Below Average,Neutral,Good,Failure
+Low,Novice,Large,Average,Good,Unfavorable,Average,Failure
+High,Beginner,Medium,Below Average,Poor,Unfavorable,Very Poor,Failure
+Very Low,Advanced,Medium,Poor,Excellent,Favorable,Average,Success
+Medium,Advanced,Very Large,Poor,Good,Unfavorable,Average,Failure
+Very High,Novice,Small,Below Average,Average,Very Favorable,Good,Success
+Medium,Expert,Very Small,Poor,Below Average,Unfavorable,Excellent,Failure
+Very High,Expert,Very Large,Excellent,Below Average,Very Favorable,Good,Success
+Very Low,Expert,Very Large,Excellent,Excellent,Unfavorable,Good,Success
+Low,Beginner,Very Large,Good,Excellent,Very Favorable,Very Poor,Failure
+High,Novice,Very Small,Good,Below Average,Very Unfavorable,Excellent,Failure
+High,Intermediate,Very Small,Average,Good,Very Unfavorable,Excellent,Success
+High,Beginner,Small,Average,Excellent,Unfavorable,Very Poor,Failure
+Very Low,Expert,Very Small,Excellent,Excellent,Unfavorable,Average,Failure
+Very Low,Expert,Very Large,Poor,Below Average,Unfavorable,Excellent,Failure
+Very High,Advanced,Small,Below Average,Below Average,Very Favorable,Poor,Failure
+Medium,Beginner,Very Large,Excellent,Good,Neutral,Poor,Failure
+Medium,Novice,Very Large,Good,Below Average,Unfavorable,Poor,Failure
+Low,Expert,Medium,Good,Poor,Unfavorable,Average,Failure
+Very High,Intermediate,Very Small,Good,Good,Favorable,Poor,Failure
+Very Low,Advanced,Medium,Below Average,Average,Unfavorable,Very Poor,Failure
+Very Low,Novice,Medium,Good,Good,Neutral,Excellent,Success
+High,Novice,Very Large,Good,Poor,Very Unfavorable,Very Poor,Failure
+Very High,Novice,Very Small,Average,Average,Favorable,Excellent,Success
+Very High,Advanced,Very Large,Poor,Good,Favorable,Very Poor,Failure
+Very Low,Intermediate,Large,Poor,Below Average,Favorable,Very Poor,Failure
+Very High,Expert,Very Large,Below Average,Average,Very Unfavorable,Good,Failure
+High,Advanced,Very Large,Good,Excellent,Very Favorable,Average,Success
+High,Advanced,Very Small,Average,Below Average,Very Favorable,Very Poor,Failure
+Very Low,Intermediate,Very Large,Poor,Good,Very Unfavorable,Average,Failure
+Very Low,Novice,Very Large,Below Average,Below Average,Favorable,Average,Success
+Very High,Expert,Medium,Average,Below Average,Neutral,Good,Failure
+Very High,Beginner,Very Large,Good,Below Average,Very Unfavorable,Very Poor,Failure
+Medium,Novice,Very Small,Below Average,Excellent,Favorable,Very Poor,Success
+Very High,Novice,Medium,Average,Below Average,Favorable,Poor,Failure
+Very High,Intermediate,Small,Poor,Excellent,Unfavorable,Average,Failure
+Low,Beginner,Small,Excellent,Good,Very Unfavorable,Good,Success
+Very Low,Expert,Very Large,Poor,Poor,Very Favorable,Average,Success
+Very High,Expert,Medium,Excellent,Excellent,Favorable,Very Poor,Failure
+Low,Expert,Large,Below Average,Below Average,Very Favorable,Poor,Failure
+Very High,Intermediate,Small,Average,Excellent,Very Favorable,Very Poor,Failure
+Very Low,Beginner,Medium,Average,Average,Unfavorable,Excellent,Failure
+Medium,Beginner,Small,Average,Good,Unfavorable,Poor,Failure
+High,Novice,Medium,Good,Below Average,Very Unfavorable,Good,Failure
+Very Low,Advanced,Very Large,Poor,Average,Very Unfavorable,Good,Failure
+Very Low,Beginner,Medium,Excellent,Average,Favorable,Average,Success
+Low,Expert,Medium,Good,Excellent,Neutral,Average,Failure
+Low,Expert,Very Small,Below Average,Average,Favorable,Poor,Failure
+Low,Advanced,Very Large,Below Average,Below Average,Very Favorable,Very Poor,Failure
+Medium,Advanced,Large,Good,Average,Very Unfavorable,Poor,Failure
+Low,Novice,Small,Excellent,Average,Very Unfavorable,Excellent,Failure
+Very Low,Novice,Medium,Below Average,Excellent,Very Unfavorable,Poor,Success
+Low,Intermediate,Medium,Poor,Below Average,Very Unfavorable,Poor,Failure
+Very High,Expert,Very Large,Below Average,Poor,Neutral,Excellent,Failure
+Very High,Intermediate,Very Small,Excellent,Good,Favorable,Very Poor,Success
+High,Expert,Small,Poor,Poor,Very Unfavorable,Excellent,Failure
+Very High,Intermediate,Large,Good,Poor,Neutral,Poor,Failure
+High,Novice,Medium,Excellent,Below Average,Unfavorable,Average,Failure
+Very High,Beginner,Very Small,Poor,Below Average,Neutral,Good,Failure
+Medium,Advanced,Small,Poor,Average,Very Unfavorable,Very Poor,Failure
+High,Expert,Small,Poor,Good,Very Unfavorable,Very Poor,Failure
+Very High,Novice,Large,Excellent,Excellent,Neutral,Excellent,Success
+High,Novice,Very Large,Average,Below Average,Very Unfavorable,Average,Failure
+High,Novice,Small,Below Average,Below Average,Very Unfavorable,Poor,Failure
+Very High,Intermediate,Small,Average,Average,Neutral,Average,Success
+Very Low,Advanced,Large,Below Average,Good,Favorable,Excellent,Success
+Low,Novice,Medium,Excellent,Excellent,Very Favorable,Very Poor,Success
+High,Intermediate,Very Large,Below Average,Good,Favorable,Poor,Failure
+High,Novice,Large,Excellent,Good,Neutral,Excellent,Success
+High,Intermediate,Medium,Poor,Average,Very Unfavorable,Good,Failure
+Low,Beginner,Large,Good,Poor,Favorable,Good,Success
+High,Intermediate,Large,Average,Below Average,Neutral,Good,Failure
+High,Expert,Large,Average,Poor,Neutral,Very Poor,Success
+Very High,Advanced,Very Small,Excellent,Poor,Unfavorable,Very Poor,Failure
+Very Low,Intermediate,Large,Below Average,Poor,Very Unfavorable,Average,Failure
+Medium,Advanced,Medium,Below Average,Average,Unfavorable,Average,Success
+Medium,Intermediate,Medium,Good,Excellent,Very Favorable,Good,Success
+Low,Advanced,Small,Poor,Good,Neutral,Excellent,Success
+Medium,Beginner,Very Small,Below Average,Poor,Neutral,Good,Failure
+Very Low,Expert,Medium,Below Average,Excellent,Very Unfavorable,Poor,Failure
+Medium,Expert,Very Small,Poor,Average,Unfavorable,Poor,Failure
+Very Low,Expert,Small,Good,Excellent,Unfavorable,Good,Success
+Very Low,Intermediate,Very Small,Below Average,Average,Very Unfavorable,Excellent,Failure
+Very High,Expert,Medium,Excellent,Good,Unfavorable,Average,Failure
+Medium,Novice,Very Large,Poor,Below Average,Very Unfavorable,Good,Failure
+High,Novice,Very Small,Below Average,Below Average,Unfavorable,Excellent,Failure
+Low,Expert,Very Small,Good,Good,Very Unfavorable,Excellent,Success
+High,Expert,Very Large,Average,Average,Very Favorable,Poor,Failure
+Medium,Intermediate,Large,Excellent,Below Average,Very Unfavorable,Average,Failure
+Medium,Expert,Very Large,Excellent,Poor,Very Unfavorable,Excellent,Success
+High,Advanced,Large,Excellent,Average,Unfavorable,Good,Failure
+Very High,Beginner,Very Large,Excellent,Below Average,Unfavorable,Excellent,Failure
+Medium,Intermediate,Very Small,Average,Below Average,Very Unfavorable,Good,Failure
+Very High,Intermediate,Large,Average,Poor,Very Unfavorable,Excellent,Failure
+Low,Novice,Large,Average,Good,Unfavorable,Poor,Failure
+Medium,Intermediate,Very Large,Average,Below Average,Neutral,Average,Failure
+High,Intermediate,Very Small,Good,Poor,Favorable,Excellent,Success
+Very High,Beginner,Very Small,Below Average,Excellent,Very Favorable,Excellent,Success
+Low,Advanced,Very Small,Average,Good,Very Unfavorable,Poor,Failure
+Very Low,Beginner,Large,Average,Average,Unfavorable,Excellent,Failure
+Low,Advanced,Large,Good,Good,Favorable,Very Poor,Success
+Very High,Novice,Large,Poor,Below Average,Very Unfavorable,Very Poor,Failure
+Medium,Beginner,Very Small,Good,Below Average,Unfavorable,Good,Failure
+Medium,Beginner,Small,Poor,Poor,Unfavorable,Excellent,Failure
+Very Low,Beginner,Small,Excellent,Below Average,Neutral,Good,Failure
+Very High,Expert,Large,Good,Good,Very Unfavorable,Excellent,Success
+Medium,Expert,Large,Excellent,Poor,Favorable,Poor,Failure
+Medium,Beginner,Very Small,Poor,Excellent,Very Favorable,Average,Success
+Very High,Intermediate,Very Small,Good,Excellent,Neutral,Average,Failure
+Low,Novice,Small,Poor,Excellent,Very Favorable,Good,Success
+High,Intermediate,Small,Poor,Poor,Very Unfavorable,Very Poor,Failure
+Low,Novice,Very Large,Excellent,Good,Favorable,Excellent,Success
+Very High,Novice,Very Small,Poor,Poor,Favorable,Average,Success
+Low,Expert,Medium,Below Average,Average,Favorable,Good,Success
+Medium,Novice,Very Large,Average,Poor,Unfavorable,Excellent,Failure
+Very High,Beginner,Very Small,Good,Below Average,Favorable,Poor,Failure
+Medium,Beginner,Medium,Excellent,Excellent,Unfavorable,Good,Success
+Medium,Novice,Medium,Average,Poor,Favorable,Very Poor,Failure
+Medium,Expert,Large,Excellent,Average,Very Favorable,Excellent,Success
+Low,Intermediate,Large,Below Average,Below Average,Very Favorable,Excellent,Failure
+High,Expert,Medium,Average,Good,Favorable,Average,Success
+Very Low,Expert,Medium,Good,Poor,Favorable,Average,Success
+High,Intermediate,Very Large,Poor,Excellent,Unfavorable,Good,Failure
+Very Low,Beginner,Medium,Poor,Below Average,Unfavorable,Very Poor,Failure
+Very High,Advanced,Large,Average,Poor,Unfavorable,Average,Failure
+High,Expert,Large,Excellent,Below Average,Very Unfavorable,Excellent,Failure
+Very Low,Beginner,Large,Good,Below Average,Unfavorable,Good,Failure
+Medium,Novice,Small,Poor,Below Average,Unfavorable,Good,Failure
+Very High,Expert,Very Large,Average,Average,Very Unfavorable,Very Poor,Failure
+High,Expert,Very Large,Average,Poor,Favorable,Average,Success
+Low,Novice,Very Large,Below Average,Below Average,Neutral,Average,Success
+Very High,Advanced,Small,Good,Poor,Very Unfavorable,Very Poor,Failure
+Medium,Advanced,Very Large,Good,Below Average,Unfavorable,Excellent,Failure
+Medium,Intermediate,Small,Excellent,Excellent,Very Unfavorable,Good,Success
+Medium,Novice,Small,Excellent,Poor,Very Favorable,Very Poor,Failure
+Very Low,Beginner,Medium,Average,Poor,Very Favorable,Poor,Failure
+High,Beginner,Small,Below Average,Excellent,Favorable,Very Poor,Failure
+Very High,Advanced,Very Small,Average,Poor,Unfavorable,Good,Failure
+High,Intermediate,Very Small,Excellent,Below Average,Very Favorable,Excellent,Success
+High,Intermediate,Very Large,Poor,Average,Very Unfavorable,Poor,Failure
+Very Low,Beginner,Very Small,Below Average,Poor,Unfavorable,Poor,Failure
+Very Low,Intermediate,Medium,Good,Excellent,Favorable,Poor,Success
+Medium,Advanced,Very Small,Poor,Average,Unfavorable,Good,Failure
+High,Advanced,Small,Poor,Poor,Unfavorable,Very Poor,Success
+Very Low,Intermediate,Very Small,Good,Below Average,Very Unfavorable,Average,Failure
+Medium,Advanced,Large,Average,Good,Unfavorable,Good,Success
+Very High,Advanced,Medium,Below Average,Good,Very Unfavorable,Good,Failure
+Very Low,Intermediate,Very Large,Poor,Average,Very Unfavorable,Good,Failure
+Very Low,Advanced,Large,Average,Excellent,Unfavorable,Average,Failure
+Very High,Novice,Medium,Good,Poor,Favorable,Good,Success
+Very High,Advanced,Medium,Average,Good,Favorable,Average,Success
+Very Low,Expert,Medium,Poor,Good,Neutral,Poor,Failure
+Very High,Beginner,Very Small,Below Average,Poor,Very Favorable,Very Poor,Failure
+Very High,Novice,Very Small,Below Average,Poor,Unfavorable,Good,Failure
+Medium,Intermediate,Large,Good,Excellent,Unfavorable,Average,Failure
+Very Low,Beginner,Large,Average,Poor,Very Unfavorable,Poor,Failure
+Very High,Expert,Small,Excellent,Good,Favorable,Excellent,Success
+Medium,Beginner,Small,Below Average,Poor,Unfavorable,Very Poor,Failure
+Very Low,Advanced,Small,Excellent,Below Average,Favorable,Excellent,Success
+Very Low,Beginner,Medium,Average,Good,Neutral,Very Poor,Failure
+Very Low,Intermediate,Very Large,Average,Average,Unfavorable,Good,Failure
+Very High,Advanced,Small,Excellent,Excellent,Very Unfavorable,Average,Failure
+Very High,Advanced,Large,Good,Good,Favorable,Very Poor,Success
+High,Expert,Very Large,Excellent,Poor,Very Favorable,Good,Success
+Medium,Beginner,Small,Poor,Excellent,Favorable,Poor,Success
+High,Expert,Very Small,Excellent,Excellent,Favorable,Good,Success
+Medium,Advanced,Small,Excellent,Average,Very Favorable,Excellent,Success
+Low,Advanced,Small,Good,Below Average,Favorable,Very Poor,Failure
+High,Expert,Medium,Poor,Below Average,Neutral,Average,Failure
+Very Low,Advanced,Medium,Average,Poor,Unfavorable,Excellent,Failure
+Low,Beginner,Small,Poor,Below Average,Unfavorable,Poor,Failure
+Low,Novice,Medium,Excellent,Excellent,Unfavorable,Good,Failure
+Low,Expert,Very Small,Average,Poor,Favorable,Very Poor,Failure
+Medium,Intermediate,Very Large,Good,Below Average,Very Favorable,Poor,Success
+Very High,Novice,Very Large,Average,Poor,Favorable,Average,Success
+Very High,Intermediate,Medium,Good,Excellent,Unfavorable,Excellent,Success
+Low,Advanced,Small,Excellent,Excellent,Very Favorable,Very Poor,Success
+Very High,Novice,Very Small,Poor,Good,Unfavorable,Poor,Failure
+Very Low,Advanced,Very Small,Poor,Below Average,Unfavorable,Average,Failure
+Very High,Advanced,Large,Poor,Below Average,Neutral,Good,Failure
+Medium,Expert,Medium,Poor,Average,Neutral,Average,Success
+Low,Intermediate,Large,Poor,Below Average,Favorable,Excellent,Failure
+High,Beginner,Medium,Below Average,Poor,Neutral,Poor,Failure
+Very Low,Expert,Large,Excellent,Poor,Very Favorable,Average,Success
+High,Expert,Small,Poor,Excellent,Very Unfavorable,Very Poor,Success
+Low,Intermediate,Medium,Poor,Poor,Very Favorable,Excellent,Success
+Low,Expert,Very Large,Good,Average,Unfavorable,Very Poor,Failure
+High,Intermediate,Medium,Excellent,Excellent,Unfavorable,Average,Failure
+Low,Expert,Very Large,Good,Excellent,Neutral,Average,Failure
+Low,Novice,Large,Poor,Excellent,Unfavorable,Excellent,Success
+Low,Intermediate,Large,Excellent,Below Average,Very Unfavorable,Excellent,Success
+Very High,Beginner,Small,Excellent,Poor,Favorable,Good,Success
+Very High,Expert,Very Large,Excellent,Below Average,Favorable,Average,Success
+Medium,Novice,Small,Average,Good,Very Favorable,Average,Success
+High,Beginner,Very Small,Below Average,Excellent,Favorable,Very Poor,Failure
+Very Low,Expert,Very Large,Below Average,Good,Neutral,Good,Success
+High,Expert,Medium,Poor,Below Average,Neutral,Very Poor,Failure
+High,Advanced,Very Large,Below Average,Poor,Unfavorable,Average,Failure
+Medium,Expert,Large,Excellent,Excellent,Neutral,Very Poor,Failure
+Very High,Beginner,Small,Average,Good,Neutral,Poor,Failure
+Very Low,Beginner,Very Small,Below Average,Good,Favorable,Excellent,Success
+Very Low,Novice,Small,Below Average,Excellent,Very Unfavorable,Very Poor,Failure
+Medium,Advanced,Very Small,Average,Average,Unfavorable,Very Poor,Failure
+Low,Novice,Large,Good,Excellent,Very Favorable,Average,Success
+High,Novice,Small,Poor,Good,Favorable,Good,Success
+High,Expert,Medium,Excellent,Below Average,Unfavorable,Very Poor,Failure
+Very Low,Novice,Medium,Average,Below Average,Favorable,Poor,Failure
+High,Intermediate,Small,Good,Good,Neutral,Average,Failure
+Very Low,Advanced,Small,Poor,Below Average,Very Favorable,Good,Success
+Very High,Expert,Very Small,Good,Below Average,Very Favorable,Very Poor,Failure
+Very High,Intermediate,Small,Poor,Average,Very Unfavorable,Excellent,Failure
+Very Low,Beginner,Very Small,Below Average,Good,Unfavorable,Excellent,Success
+Medium,Advanced,Small,Average,Poor,Very Favorable,Excellent,Success
+High,Beginner,Small,Poor,Average,Favorable,Average,Success
+Very Low,Beginner,Very Large,Average,Good,Unfavorable,Excellent,Success
+Medium,Expert,Very Small,Average,Below Average,Neutral,Good,Failure
+Very High,Intermediate,Large,Good,Below Average,Very Unfavorable,Average,Failure
+High,Advanced,Medium,Excellent,Poor,Neutral,Poor,Success
+High,Expert,Very Small,Good,Below Average,Very Favorable,Poor,Failure
+Very High,Novice,Small,Good,Poor,Neutral,Excellent,Failure
+Low,Advanced,Medium,Excellent,Below Average,Favorable,Average,Success
+Very Low,Expert,Small,Excellent,Excellent,Favorable,Excellent,Success
+Medium,Advanced,Large,Good,Excellent,Unfavorable,Excellent,Success
+Medium,Advanced,Very Small,Average,Below Average,Very Unfavorable,Poor,Success
+Low,Expert,Very Small,Below Average,Poor,Very Unfavorable,Poor,Failure
+Medium,Beginner,Small,Excellent,Poor,Favorable,Average,Success
+Medium,Beginner,Small,Below Average,Average,Neutral,Excellent,Failure
+High,Expert,Very Small,Average,Excellent,Neutral,Average,Success
+Very Low,Advanced,Small,Excellent,Average,Unfavorable,Good,Failure
+High,Beginner,Very Small,Poor,Poor,Very Favorable,Good,Success
+Very High,Intermediate,Very Large,Poor,Below Average,Very Favorable,Very Poor,Success
+High,Novice,Large,Good,Excellent,Unfavorable,Poor,Failure
+Low,Novice,Very Small,Below Average,Good,Very Favorable,Average,Success
+Very Low,Intermediate,Large,Poor,Below Average,Favorable,Excellent,Failure
+Low,Intermediate,Large,Good,Poor,Very Unfavorable,Very Poor,Failure
+Very Low,Intermediate,Very Large,Good,Excellent,Very Unfavorable,Good,Success
+Very Low,Advanced,Very Small,Good,Poor,Very Favorable,Excellent,Success
+Very Low,Beginner,Small,Average,Poor,Very Favorable,Very Poor,Failure
+Medium,Intermediate,Small,Below Average,Good,Very Favorable,Very Poor,Failure
+High,Expert,Very Small,Excellent,Poor,Very Unfavorable,Good,Success
+Medium,Novice,Very Small,Good,Poor,Very Favorable,Excellent,Success
+Medium,Novice,Large,Excellent,Poor,Neutral,Excellent,Success
+High,Intermediate,Large,Poor,Good,Neutral,Very Poor,Failure
+Low,Beginner,Medium,Average,Average,Favorable,Poor,Failure
+Very Low,Intermediate,Large,Excellent,Poor,Unfavorable,Poor,Failure
+Low,Expert,Very Small,Good,Poor,Favorable,Poor,Success
+Low,Intermediate,Medium,Average,Below Average,Very Unfavorable,Very Poor,Failure
+Very High,Advanced,Large,Good,Excellent,Neutral,Poor,Failure
+Medium,Intermediate,Small,Average,Excellent,Unfavorable,Good,Success
+Very Low,Advanced,Large,Excellent,Excellent,Neutral,Very Poor,Failure
+High,Beginner,Large,Excellent,Excellent,Very Favorable,Poor,Failure
+Low,Beginner,Large,Poor,Excellent,Very Unfavorable,Average,Failure
+Very High,Expert,Large,Below Average,Below Average,Unfavorable,Excellent,Failure
+Very High,Beginner,Very Large,Good,Good,Favorable,Very Poor,Failure
+Low,Advanced,Very Small,Good,Excellent,Very Unfavorable,Excellent,Success
+Low,Beginner,Medium,Poor,Below Average,Favorable,Excellent,Success
+Very High,Advanced,Very Small,Average,Below Average,Favorable,Poor,Failure
+Medium,Expert,Large,Average,Poor,Favorable,Average,Success
+Very High,Advanced,Small,Excellent,Excellent,Very Favorable,Poor,Failure
+Very High,Intermediate,Medium,Excellent,Below Average,Favorable,Average,Success
+Very High,Beginner,Very Small,Good,Below Average,Neutral,Average,Failure
+Medium,Novice,Small,Below Average,Below Average,Unfavorable,Excellent,Failure
+Medium,Intermediate,Large,Good,Below Average,Unfavorable,Excellent,Failure
+Medium,Advanced,Small,Average,Average,Very Unfavorable,Average,Failure
+High,Intermediate,Very Small,Below Average,Below Average,Neutral,Average,Failure
+High,Intermediate,Medium,Below Average,Good,Favorable,Average,Success
+High,Intermediate,Very Small,Poor,Good,Neutral,Excellent,Success
+High,Intermediate,Small,Excellent,Excellent,Favorable,Good,Success
+Very Low,Advanced,Small,Below Average,Excellent,Favorable,Good,Success
+Very Low,Beginner,Very Small,Good,Excellent,Unfavorable,Very Poor,Failure
+Very Low,Beginner,Very Small,Average,Below Average,Very Favorable,Good,Success
+Low,Intermediate,Very Small,Excellent,Excellent,Very Unfavorable,Poor,Failure
+Very Low,Novice,Small,Good,Excellent,Unfavorable,Excellent,Failure
+Low,Beginner,Very Large,Average,Good,Favorable,Good,Success
+Very High,Advanced,Very Small,Good,Excellent,Very Unfavorable,Average,Failure
+Very Low,Advanced,Large,Good,Poor,Favorable,Average,Success
+Medium,Beginner,Small,Excellent,Below Average,Unfavorable,Poor,Failure
+High,Advanced,Very Large,Average,Below Average,Favorable,Very Poor,Failure
+Low,Advanced,Medium,Good,Below Average,Very Unfavorable,Average,Failure
+Very High,Expert,Very Large,Below Average,Poor,Favorable,Good,Success
+Very Low,Advanced,Medium,Excellent,Average,Unfavorable,Average,Failure
+High,Beginner,Very Large,Poor,Average,Favorable,Very Poor,Failure
+Medium,Beginner,Small,Below Average,Good,Very Unfavorable,Poor,Failure
+Very High,Novice,Large,Average,Average,Neutral,Very Poor,Failure
+Medium,Intermediate,Small,Below Average,Poor,Neutral,Very Poor,Failure
+Very Low,Beginner,Very Large,Good,Good,Very Favorable,Excellent,Success
+Low,Advanced,Very Large,Poor,Below Average,Very Favorable,Average,Success
+Very High,Novice,Medium,Excellent,Excellent,Unfavorable,Average,Failure
+Very Low,Expert,Very Small,Poor,Below Average,Favorable,Good,Success
+Very Low,Novice,Small,Below Average,Excellent,Favorable,Very Poor,Success
+Low,Advanced,Medium,Poor,Excellent,Favorable,Poor,Success
+Low,Beginner,Very Large,Average,Below Average,Unfavorable,Average,Failure
+Very Low,Novice,Very Large,Good,Poor,Unfavorable,Average,Failure
+Low,Advanced,Very Small,Good,Below Average,Favorable,Poor,Failure
+Very High,Expert,Small,Average,Poor,Very Unfavorable,Excellent,Failure
+Low,Novice,Very Large,Good,Average,Unfavorable,Good,Failure
+Very High,Advanced,Large,Excellent,Average,Very Favorable,Average,Success
+Very Low,Intermediate,Very Small,Good,Below Average,Very Unfavorable,Average,Failure
+High,Beginner,Very Small,Good,Poor,Neutral,Good,Failure
+Very Low,Advanced,Medium,Below Average,Below Average,Favorable,Good,Success
+Very Low,Intermediate,Medium,Poor,Poor,Very Favorable,Average,Success
+Very Low,Beginner,Medium,Good,Poor,Very Favorable,Good,Success
+Very High,Beginner,Very Large,Below Average,Below Average,Very Favorable,Good,Success
+High,Beginner,Very Small,Average,Poor,Very Favorable,Poor,Failure
+Low,Intermediate,Small,Excellent,Poor,Favorable,Good,Success
+Medium,Novice,Large,Average,Good,Very Favorable,Poor,Failure
+Very High,Intermediate,Very Large,Excellent,Good,Very Favorable,Very Poor,Success
+Very Low,Intermediate,Very Large,Below Average,Excellent,Very Unfavorable,Good,Success
+Very Low,Advanced,Small,Average,Poor,Unfavorable,Poor,Failure
+Medium,Advanced,Very Large,Below Average,Excellent,Neutral,Very Poor,Failure
+Low,Expert,Small,Excellent,Average,Favorable,Good,Success
+High,Intermediate,Small,Good,Poor,Neutral,Good,Failure
+Very Low,Intermediate,Very Small,Below Average,Average,Neutral,Excellent,Failure
+Medium,Expert,Very Large,Poor,Good,Unfavorable,Average,Failure
+Very Low,Intermediate,Very Large,Good,Average,Favorable,Excellent,Success
+Medium,Intermediate,Large,Good,Average,Very Unfavorable,Good,Failure
+Low,Expert,Small,Poor,Below Average,Unfavorable,Excellent,Failure
+Medium,Expert,Large,Average,Poor,Very Favorable,Excellent,Success
+Very Low,Expert,Large,Poor,Poor,Very Favorable,Good,Success
+Very High,Beginner,Large,Good,Excellent,Neutral,Average,Failure
+Low,Advanced,Medium,Average,Average,Very Unfavorable,Very Poor,Failure
+Medium,Expert,Very Small,Average,Good,Neutral,Good,Success
+Very High,Beginner,Small,Excellent,Good,Very Favorable,Good,Success
+High,Advanced,Very Large,Poor,Average,Favorable,Poor,Failure
+High,Expert,Medium,Good,Below Average,Unfavorable,Very Poor,Failure
+Medium,Intermediate,Medium,Below Average,Average,Very Unfavorable,Good,Failure
+Low,Intermediate,Medium,Excellent,Average,Unfavorable,Average,Failure
+Very Low,Advanced,Very Large,Below Average,Good,Unfavorable,Very Poor,Failure
+High,Novice,Medium,Average,Average,Neutral,Poor,Failure
+Very High,Advanced,Medium,Good,Excellent,Very Favorable,Very Poor,Failure
+Very High,Beginner,Very Large,Good,Good,Very Unfavorable,Poor,Failure
+Very High,Intermediate,Very Small,Poor,Good,Unfavorable,Good,Failure
+High,Intermediate,Medium,Good,Below Average,Very Unfavorable,Good,Success
+Medium,Expert,Small,Good,Average,Very Unfavorable,Very Poor,Failure
+High,Beginner,Very Small,Poor,Good,Very Favorable,Average,Success
+Low,Novice,Very Large,Poor,Average,Unfavorable,Excellent,Failure
+Low,Beginner,Very Small,Good,Poor,Very Unfavorable,Very Poor,Success
+Medium,Beginner,Very Small,Good,Below Average,Very Unfavorable,Excellent,Failure
+Very High,Beginner,Large,Excellent,Good,Unfavorable,Good,Failure
+High,Beginner,Very Large,Below Average,Excellent,Unfavorable,Average,Failure
+Medium,Novice,Very Small,Excellent,Below Average,Unfavorable,Very Poor,Failure
+Very Low,Beginner,Very Large,Excellent,Average,Neutral,Excellent,Failure
+Low,Novice,Medium,Average,Below Average,Unfavorable,Very Poor,Failure
+Very Low,Advanced,Very Large,Good,Poor,Very Favorable,Very Poor,Success
+Very Low,Beginner,Very Small,Excellent,Below Average,Very Unfavorable,Average,Failure
+High,Expert,Very Large,Good,Good,Neutral,Excellent,Success
+Medium,Novice,Large,Excellent,Poor,Unfavorable,Good,Failure
+Very Low,Novice,Large,Average,Average,Favorable,Good,Success
+Very Low,Beginner,Large,Good,Poor,Neutral,Good,Failure
+Very High,Expert,Very Large,Below Average,Excellent,Neutral,Poor,Failure
+Very High,Expert,Very Small,Average,Below Average,Neutral,Poor,Failure
+Very Low,Beginner,Medium,Poor,Average,Neutral,Average,Failure
+High,Expert,Small,Below Average,Good,Very Unfavorable,Excellent,Success
+Very Low,Novice,Medium,Excellent,Excellent,Very Unfavorable,Excellent,Success
+Low,Beginner,Large,Good,Below Average,Neutral,Poor,Failure
+Medium,Beginner,Very Small,Good,Good,Favorable,Poor,Success
+High,Beginner,Very Large,Below Average,Excellent,Unfavorable,Poor,Failure
+Very High,Advanced,Very Large,Poor,Below Average,Neutral,Average,Success
+Medium,Beginner,Very Small,Good,Good,Neutral,Very Poor,Failure
+Low,Intermediate,Very Small,Poor,Average,Unfavorable,Very Poor,Failure
+High,Intermediate,Large,Poor,Below Average,Very Unfavorable,Very Poor,Failure
+High,Novice,Large,Average,Good,Neutral,Excellent,Success
+High,Advanced,Very Small,Below Average,Excellent,Neutral,Very Poor,Failure
+Very High,Advanced,Large,Below Average,Average,Neutral,Average,Success
+Medium,Expert,Small,Below Average,Excellent,Neutral,Poor,Success
+Low,Beginner,Very Large,Excellent,Average,Unfavorable,Excellent,Failure
+Very Low,Intermediate,Large,Below Average,Good,Very Unfavorable,Very Poor,Failure
+Very Low,Advanced,Large,Good,Below Average,Favorable,Poor,Failure
+Very Low,Intermediate,Large,Good,Good,Unfavorable,Excellent,Success
+Medium,Intermediate,Very Small,Below Average,Excellent,Favorable,Good,Failure
+High,Beginner,Small,Good,Poor,Favorable,Average,Success
+Low,Intermediate,Large,Average,Good,Unfavorable,Average,Failure
+Very High,Novice,Small,Excellent,Average,Very Unfavorable,Average,Failure
+High,Novice,Small,Excellent,Excellent,Very Unfavorable,Average,Failure
+Very High,Advanced,Very Small,Poor,Good,Very Unfavorable,Average,Failure
+High,Advanced,Large,Poor,Excellent,Unfavorable,Very Poor,Failure
+Very Low,Expert,Small,Excellent,Average,Unfavorable,Very Poor,Failure
+High,Intermediate,Large,Below Average,Average,Very Favorable,Good,Success
+Very Low,Advanced,Large,Below Average,Average,Unfavorable,Excellent,Failure
+Very Low,Beginner,Medium,Average,Below Average,Very Favorable,Very Poor,Success
+Low,Advanced,Very Large,Excellent,Good,Favorable,Average,Success
+Low,Novice,Large,Good,Below Average,Unfavorable,Poor,Success
+Very High,Intermediate,Very Small,Good,Average,Very Favorable,Poor,Failure
+Very High,Novice,Very Large,Poor,Poor,Very Unfavorable,Excellent,Failure
+Medium,Advanced,Very Small,Excellent,Good,Favorable,Good,Success
+Medium,Advanced,Very Small,Poor,Good,Unfavorable,Good,Success
+Very High,Novice,Very Small,Average,Excellent,Neutral,Very Poor,Success
+Low,Expert,Medium,Poor,Below Average,Favorable,Good,Success
+Very Low,Expert,Very Large,Average,Poor,Favorable,Good,Success
+Medium,Advanced,Very Small,Excellent,Below Average,Very Favorable,Average,Success
+Low,Expert,Medium,Average,Below Average,Unfavorable,Poor,Failure
+Very Low,Novice,Very Large,Poor,Average,Very Favorable,Very Poor,Failure
+Medium,Intermediate,Very Small,Excellent,Good,Favorable,Good,Failure
+Low,Advanced,Very Small,Poor,Below Average,Very Unfavorable,Good,Failure
+Very High,Beginner,Large,Good,Poor,Unfavorable,Poor,Failure
+Low,Expert,Very Large,Below Average,Good,Unfavorable,Excellent,Success
+Medium,Expert,Small,Average,Good,Unfavorable,Very Poor,Failure
+Very Low,Beginner,Very Small,Average,Below Average,Very Unfavorable,Good,Failure
+Medium,Beginner,Very Small,Below Average,Below Average,Favorable,Very Poor,Failure
+High,Novice,Very Small,Average,Poor,Neutral,Very Poor,Failure
+Very High,Novice,Large,Average,Poor,Favorable,Excellent,Success
+High,Expert,Large,Good,Good,Very Unfavorable,Good,Failure
+Medium,Intermediate,Large,Excellent,Excellent,Very Favorable,Very Poor,Success
+Medium,Novice,Very Large,Average,Good,Very Favorable,Good,Success
+Low,Novice,Medium,Good,Excellent,Neutral,Good,Success
+Low,Advanced,Very Large,Average,Poor,Very Favorable,Average,Failure
+High,Advanced,Medium,Excellent,Average,Very Unfavorable,Excellent,Failure
+Low,Novice,Small,Good,Below Average,Neutral,Very Poor,Failure
+Low,Intermediate,Very Large,Average,Below Average,Very Unfavorable,Very Poor,Failure
+High,Expert,Very Small,Good,Below Average,Unfavorable,Good,Failure
+Low,Beginner,Small,Below Average,Excellent,Very Favorable,Very Poor,Success
+High,Novice,Very Small,Average,Excellent,Unfavorable,Average,Failure
+Very Low,Intermediate,Medium,Poor,Good,Favorable,Average,Success
+High,Intermediate,Large,Excellent,Poor,Unfavorable,Poor,Failure
+Low,Intermediate,Medium,Average,Average,Very Favorable,Very Poor,Failure
+Very High,Novice,Very Large,Average,Excellent,Favorable,Very Poor,Failure
+Very High,Novice,Small,Poor,Good,Very Favorable,Excellent,Success
+High,Intermediate,Small,Good,Good,Very Favorable,Good,Success
+Very High,Intermediate,Small,Excellent,Poor,Very Favorable,Excellent,Success
+Very High,Novice,Medium,Poor,Good,Very Unfavorable,Average,Failure
+Low,Expert,Very Large,Excellent,Average,Very Favorable,Very Poor,Failure
+Very Low,Novice,Large,Average,Poor,Favorable,Very Poor,Failure
+Very Low,Advanced,Small,Excellent,Below Average,Favorable,Excellent,Success
+Low,Intermediate,Large,Good,Average,Neutral,Excellent,Failure
+Very Low,Expert,Small,Below Average,Below Average,Very Favorable,Poor,Success
+High,Beginner,Small,Excellent,Average,Very Unfavorable,Poor,Failure
+Very Low,Novice,Medium,Below Average,Below Average,Very Favorable,Poor,Success
+Very High,Intermediate,Very Small,Good,Good,Favorable,Excellent,Success
+Low,Novice,Small,Poor,Excellent,Unfavorable,Good,Success
+Medium,Beginner,Very Small,Excellent,Excellent,Very Favorable,Excellent,Success
+Very High,Novice,Medium,Excellent,Average,Very Unfavorable,Average,Failure
+Very High,Expert,Small,Excellent,Below Average,Favorable,Very Poor,Failure
+High,Beginner,Very Large,Excellent,Average,Very Favorable,Good,Failure
+Medium,Advanced,Small,Below Average,Good,Neutral,Very Poor,Failure
+High,Advanced,Small,Good,Excellent,Unfavorable,Good,Success
+Low,Intermediate,Very Large,Below Average,Below Average,Favorable,Good,Success
+Medium,Advanced,Very Large,Average,Below Average,Neutral,Average,Failure
+Low,Novice,Small,Average,Good,Favorable,Average,Success
+Very Low,Expert,Large,Poor,Excellent,Unfavorable,Average,Failure
+Very High,Advanced,Medium,Poor,Below Average,Neutral,Very Poor,Failure
+Very Low,Intermediate,Large,Excellent,Excellent,Neutral,Average,Failure
+Low,Novice,Small,Average,Poor,Unfavorable,Good,Failure
+High,Intermediate,Very Small,Below Average,Average,Unfavorable,Very Poor,Failure
+Very High,Intermediate,Very Large,Good,Good,Unfavorable,Good,Failure
+Very High,Expert,Very Large,Average,Below Average,Favorable,Poor,Failure
+Medium,Expert,Very Small,Average,Poor,Favorable,Very Poor,Failure
+Very Low,Intermediate,Medium,Below Average,Below Average,Very Unfavorable,Good,Failure
+Low,Intermediate,Medium,Average,Poor,Neutral,Good,Failure
+Low,Advanced,Small,Below Average,Poor,Neutral,Very Poor,Failure
+Low,Advanced,Small,Below Average,Excellent,Very Favorable,Poor,Success
+Low,Beginner,Very Large,Below Average,Good,Neutral,Very Poor,Failure
+High,Expert,Very Small,Below Average,Below Average,Very Unfavorable,Average,Failure
+Low,Advanced,Very Small,Average,Average,Very Unfavorable,Average,Failure
+High,Intermediate,Large,Average,Good,Unfavorable,Average,Failure
+High,Advanced,Medium,Good,Average,Neutral,Excellent,Failure
+Medium,Beginner,Medium,Poor,Below Average,Very Unfavorable,Poor,Failure
+Medium,Advanced,Small,Good,Below Average,Unfavorable,Very Poor,Failure
+Very Low,Intermediate,Small,Below Average,Average,Very Unfavorable,Excellent,Failure
+Low,Advanced,Medium,Excellent,Below Average,Neutral,Poor,Failure
+High,Advanced,Large,Good,Poor,Neutral,Good,Failure
+Medium,Expert,Small,Excellent,Poor,Unfavorable,Very Poor,Failure
+Low,Expert,Small,Excellent,Below Average,Neutral,Average,Failure
+Medium,Beginner,Large,Average,Excellent,Unfavorable,Poor,Failure
+Medium,Beginner,Very Large,Below Average,Below Average,Neutral,Good,Failure
+Very Low,Advanced,Medium,Poor,Below Average,Very Favorable,Poor,Failure
+High,Expert,Very Small,Poor,Average,Unfavorable,Good,Failure
+High,Expert,Very Small,Poor,Poor,Very Favorable,Poor,Failure
+Medium,Advanced,Very Small,Poor,Excellent,Neutral,Average,Failure
+Low,Expert,Very Small,Poor,Poor,Favorable,Excellent,Failure
+High,Novice,Very Small,Excellent,Excellent,Neutral,Good,Success
+Very Low,Intermediate,Very Large,Excellent,Good,Favorable,Very Poor,Success
+High,Novice,Medium,Excellent,Good,Neutral,Very Poor,Failure
+Very Low,Novice,Small,Below Average,Excellent,Unfavorable,Poor,Failure
+Low,Novice,Very Small,Good,Below Average,Very Unfavorable,Excellent,Success
+Medium,Expert,Large,Average,Poor,Unfavorable,Good,Failure
+Low,Advanced,Very Small,Excellent,Average,Favorable,Excellent,Success
+Low,Beginner,Very Large,Below Average,Good,Neutral,Poor,Failure
+Very Low,Intermediate,Medium,Below Average,Average,Neutral,Good,Failure
+Low,Intermediate,Large,Average,Below Average,Neutral,Very Poor,Failure
+Medium,Novice,Very Small,Poor,Excellent,Very Unfavorable,Very Poor,Failure
+High,Beginner,Very Large,Below Average,Average,Very Unfavorable,Good,Failure
+Very Low,Advanced,Very Small,Good,Below Average,Unfavorable,Good,Failure
+Very Low,Beginner,Very Small,Good,Below Average,Unfavorable,Good,Failure
+Low,Beginner,Large,Good,Average,Favorable,Very Poor,Failure
+Low,Intermediate,Very Large,Below Average,Poor,Very Unfavorable,Good,Failure
+Low,Expert,Medium,Below Average,Good,Very Favorable,Good,Success
+Very High,Novice,Very Large,Below Average,Good,Unfavorable,Excellent,Success
+Medium,Expert,Medium,Below Average,Below Average,Very Favorable,Poor,Failure
+Low,Intermediate,Medium,Good,Good,Unfavorable,Excellent,Success
+Very High,Beginner,Medium,Average,Below Average,Very Favorable,Poor,Failure
+Very Low,Novice,Medium,Average,Poor,Very Favorable,Poor,Failure
+Medium,Advanced,Very Large,Below Average,Excellent,Unfavorable,Poor,Success
+Very High,Advanced,Large,Good,Excellent,Very Unfavorable,Very Poor,Failure
+Very Low,Beginner,Medium,Average,Excellent,Unfavorable,Very Poor,Failure
+High,Expert,Small,Good,Poor,Very Unfavorable,Good,Failure
+High,Expert,Medium,Below Average,Excellent,Neutral,Excellent,Success
+Medium,Novice,Small,Below Average,Excellent,Neutral,Excellent,Success
+Very High,Intermediate,Very Small,Excellent,Average,Neutral,Good,Success
+Very High,Expert,Medium,Below Average,Poor,Neutral,Excellent,Failure
+Very Low,Advanced,Small,Good,Excellent,Favorable,Good,Success
+High,Advanced,Medium,Below Average,Average,Favorable,Average,Success
+High,Advanced,Very Large,Poor,Excellent,Unfavorable,Excellent,Success
+Low,Expert,Large,Excellent,Below Average,Very Favorable,Very Poor,Failure
+Very High,Beginner,Very Small,Below Average,Excellent,Favorable,Average,Success
+Medium,Expert,Large,Below Average,Average,Favorable,Good,Success
+High,Expert,Large,Excellent,Below Average,Very Favorable,Very Poor,Failure
+Medium,Novice,Very Large,Poor,Poor,Favorable,Excellent,Success
+Medium,Intermediate,Small,Excellent,Poor,Very Favorable,Poor,Failure
+Low,Expert,Very Small,Good,Poor,Favorable,Good,Success
+High,Expert,Large,Good,Excellent,Neutral,Excellent,Success
+Medium,Intermediate,Medium,Poor,Average,Very Favorable,Excellent,Success
+High,Advanced,Small,Below Average,Poor,Neutral,Good,Failure
+Low,Intermediate,Very Small,Excellent,Average,Unfavorable,Good,Failure
+Very Low,Expert,Large,Average,Poor,Very Favorable,Good,Success
+Very Low,Beginner,Large,Poor,Good,Very Favorable,Excellent,Success
+Very Low,Novice,Small,Excellent,Below Average,Very Unfavorable,Average,Failure
+Medium,Novice,Medium,Excellent,Excellent,Favorable,Poor,Success
+Medium,Intermediate,Large,Poor,Below Average,Very Favorable,Excellent,Success
+Medium,Intermediate,Very Large,Average,Below Average,Very Unfavorable,Good,Failure
+High,Advanced,Very Large,Good,Good,Very Unfavorable,Average,Failure
+Very High,Novice,Small,Good,Average,Very Unfavorable,Poor,Failure
+High,Intermediate,Very Small,Below Average,Below Average,Neutral,Average,Failure
+Very Low,Expert,Small,Below Average,Good,Very Unfavorable,Good,Success
+Very High,Expert,Small,Good,Average,Very Favorable,Poor,Failure
+Low,Beginner,Very Small,Average,Good,Unfavorable,Average,Failure
+Very High,Beginner,Very Small,Poor,Average,Favorable,Average,Success
+Low,Intermediate,Very Small,Excellent,Good,Neutral,Average,Failure
+Medium,Advanced,Medium,Below Average,Below Average,Very Unfavorable,Poor,Failure
+Very Low,Advanced,Large,Good,Below Average,Very Unfavorable,Good,Failure
+Medium,Advanced,Small,Excellent,Good,Neutral,Poor,Failure
+High,Advanced,Very Large,Poor,Below Average,Neutral,Average,Failure
+Medium,Novice,Very Small,Poor,Good,Very Favorable,Average,Success
+Medium,Advanced,Very Small,Below Average,Good,Very Favorable,Good,Success
+Very High,Beginner,Very Small,Below Average,Excellent,Unfavorable,Very Poor,Failure
+Low,Beginner,Large,Average,Poor,Very Favorable,Good,Success
+Very Low,Novice,Very Large,Poor,Below Average,Very Favorable,Poor,Failure
+Medium,Intermediate,Small,Good,Good,Neutral,Average,Failure
+Medium,Expert,Large,Poor,Poor,Neutral,Excellent,Success
+Low,Beginner,Medium,Poor,Good,Favorable,Average,Success
+High,Beginner,Very Large,Average,Below Average,Neutral,Very Poor,Failure
+High,Novice,Very Large,Poor,Good,Neutral,Very Poor,Failure
+Very High,Beginner,Medium,Good,Average,Very Favorable,Good,Failure
+Low,Expert,Small,Average,Average,Very Favorable,Excellent,Success
+Medium,Novice,Very Large,Poor,Excellent,Neutral,Poor,Failure
+High,Advanced,Very Small,Below Average,Below Average,Neutral,Good,Failure
+High,Advanced,Small,Excellent,Below Average,Favorable,Average,Success
+Very Low,Advanced,Large,Poor,Poor,Very Unfavorable,Excellent,Failure
+Very Low,Expert,Medium,Good,Good,Neutral,Average,Failure
+Very High,Intermediate,Very Small,Good,Below Average,Unfavorable,Excellent,Success
+High,Beginner,Very Small,Below Average,Below Average,Favorable,Excellent,Success
+High,Expert,Very Small,Poor,Poor,Very Unfavorable,Excellent,Failure
+Low,Intermediate,Large,Poor,Average,Very Favorable,Poor,Failure
+Very Low,Novice,Very Small,Poor,Below Average,Neutral,Excellent,Failure
+Very Low,Expert,Very Large,Good,Poor,Unfavorable,Good,Failure
+High,Novice,Very Small,Average,Average,Very Favorable,Very Poor,Failure
+Very High,Intermediate,Small,Average,Below Average,Neutral,Excellent,Failure
+High,Expert,Very Large,Below Average,Average,Very Unfavorable,Poor,Failure
+Medium,Beginner,Very Small,Good,Below Average,Neutral,Average,Failure
+Very Low,Intermediate,Large,Excellent,Excellent,Neutral,Excellent,Success
+Very Low,Beginner,Very Small,Below Average,Good,Unfavorable,Very Poor,Failure
+Low,Novice,Large,Average,Poor,Favorable,Poor,Failure
+Very High,Beginner,Very Large,Excellent,Below Average,Very Favorable,Poor,Failure
+Low,Expert,Very Large,Below Average,Good,Very Favorable,Average,Success
+Very Low,Expert,Very Large,Below Average,Excellent,Neutral,Excellent,Success
+Very High,Advanced,Very Large,Good,Average,Unfavorable,Good,Failure
+High,Beginner,Large,Poor,Excellent,Favorable,Excellent,Success
+High,Advanced,Small,Average,Good,Neutral,Poor,Failure
+Very High,Intermediate,Large,Average,Poor,Very Favorable,Excellent,Success
+Medium,Novice,Large,Poor,Good,Neutral,Good,Success
+High,Intermediate,Very Small,Excellent,Average,Very Unfavorable,Good,Success
+Low,Novice,Very Small,Excellent,Good,Favorable,Poor,Failure
+High,Beginner,Large,Excellent,Excellent,Neutral,Very Poor,Failure
+High,Expert,Medium,Poor,Good,Unfavorable,Poor,Success
+Medium,Beginner,Small,Good,Good,Very Favorable,Good,Success
+High,Novice,Very Large,Good,Good,Very Unfavorable,Good,Failure
+Low,Advanced,Very Large,Below Average,Good,Unfavorable,Excellent,Success
+Low,Novice,Very Large,Average,Average,Very Favorable,Average,Success
+Low,Advanced,Very Small,Poor,Good,Very Unfavorable,Good,Success
+Very Low,Intermediate,Very Small,Good,Poor,Very Favorable,Very Poor,Failure
+High,Expert,Small,Average,Average,Favorable,Poor,Failure
+High,Intermediate,Small,Excellent,Average,Neutral,Good,Failure
+Very High,Beginner,Large,Poor,Good,Very Favorable,Excellent,Success
+Medium,Advanced,Very Small,Average,Excellent,Very Unfavorable,Excellent,Success
+Very Low,Advanced,Very Large,Good,Good,Favorable,Average,Success
+High,Intermediate,Large,Excellent,Average,Neutral,Poor,Failure
+Low,Expert,Medium,Below Average,Below Average,Favorable,Good,Success
+Very Low,Expert,Medium,Below Average,Poor,Unfavorable,Average,Failure
+Very Low,Intermediate,Small,Below Average,Excellent,Unfavorable,Very Poor,Failure
+Low,Expert,Very Small,Good,Excellent,Neutral,Good,Success
+Very High,Beginner,Very Small,Poor,Excellent,Unfavorable,Average,Failure
+High,Novice,Medium,Average,Average,Neutral,Very Poor,Failure
+Medium,Advanced,Small,Good,Excellent,Unfavorable,Excellent,Success
+Very High,Advanced,Small,Average,Excellent,Unfavorable,Poor,Failure
+Medium,Advanced,Very Small,Good,Below Average,Unfavorable,Poor,Failure
+Medium,Novice,Very Small,Excellent,Below Average,Neutral,Very Poor,Failure
+High,Beginner,Medium,Good,Below Average,Very Favorable,Good,Success
+Very Low,Intermediate,Very Large,Below Average,Excellent,Very Favorable,Poor,Success
+Low,Expert,Small,Poor,Excellent,Unfavorable,Poor,Failure
+Medium,Expert,Very Small,Average,Good,Very Favorable,Very Poor,Success
+Very High,Novice,Small,Excellent,Average,Favorable,Very Poor,Failure
+High,Advanced,Very Large,Below Average,Good,Unfavorable,Excellent,Success
+High,Expert,Medium,Excellent,Average,Favorable,Very Poor,Failure
+Very High,Intermediate,Very Large,Average,Good,Very Favorable,Very Poor,Failure
+Medium,Expert,Medium,Good,Below Average,Neutral,Average,Failure
+Medium,Advanced,Small,Poor,Excellent,Very Unfavorable,Good,Success
+Medium,Intermediate,Large,Below Average,Below Average,Neutral,Average,Failure
+Very High,Advanced,Small,Poor,Good,Neutral,Very Poor,Failure
+Medium,Advanced,Large,Average,Average,Very Favorable,Excellent,Success
+Very High,Novice,Small,Excellent,Poor,Neutral,Good,Failure
+High,Advanced,Very Large,Poor,Poor,Very Favorable,Average,Success
+Very High,Intermediate,Medium,Excellent,Excellent,Very Unfavorable,Average,Failure
+Low,Novice,Small,Poor,Excellent,Very Favorable,Good,Success
+Very Low,Novice,Very Small,Average,Good,Favorable,Very Poor,Success
+Very Low,Intermediate,Medium,Excellent,Average,Very Favorable,Good,Success
+Low,Novice,Very Large,Poor,Average,Favorable,Average,Success
+Very High,Intermediate,Small,Poor,Below Average,Neutral,Poor,Failure
+Very Low,Expert,Medium,Average,Good,Neutral,Good,Success
+Low,Novice,Very Small,Excellent,Below Average,Favorable,Excellent,Success
+Medium,Expert,Medium,Poor,Good,Neutral,Average,Failure
+Low,Novice,Small,Below Average,Good,Unfavorable,Average,Failure
+Very Low,Advanced,Very Small,Average,Excellent,Very Unfavorable,Poor,Success
+Very High,Intermediate,Small,Poor,Excellent,Very Favorable,Poor,Failure
+Very High,Advanced,Large,Average,Average,Very Unfavorable,Poor,Failure
+Very High,Expert,Medium,Good,Average,Neutral,Poor,Success
+Very Low,Intermediate,Very Small,Poor,Excellent,Very Unfavorable,Very Poor,Failure
+Medium,Intermediate,Small,Below Average,Poor,Unfavorable,Good,Failure
+Very High,Expert,Large,Good,Average,Unfavorable,Excellent,Success
+High,Intermediate,Small,Average,Below Average,Very Favorable,Excellent,Success
+Medium,Intermediate,Small,Excellent,Poor,Neutral,Average,Failure
+Low,Novice,Medium,Excellent,Below Average,Neutral,Very Poor,Failure
+High,Beginner,Medium,Average,Good,Unfavorable,Average,Failure
+Medium,Advanced,Large,Excellent,Good,Favorable,Excellent,Success
+Very Low,Beginner,Medium,Excellent,Good,Very Unfavorable,Good,Success
+High,Intermediate,Very Small,Below Average,Average,Unfavorable,Very Poor,Failure
+Medium,Beginner,Large,Good,Average,Very Unfavorable,Very Poor,Failure
+Medium,Novice,Medium,Poor,Good,Very Favorable,Excellent,Success
+Medium,Expert,Very Large,Good,Average,Unfavorable,Average,Failure
+Medium,Expert,Very Small,Average,Average,Very Favorable,Good,Success
+Very High,Beginner,Small,Below Average,Below Average,Favorable,Very Poor,Failure
+High,Novice,Very Small,Average,Excellent,Favorable,Average,Success
+Medium,Expert,Very Small,Good,Good,Neutral,Very Poor,Failure
+Low,Beginner,Very Small,Below Average,Poor,Very Favorable,Average,Success
+Medium,Beginner,Very Large,Below Average,Excellent,Unfavorable,Poor,Success
+Very High,Advanced,Very Small,Good,Excellent,Very Unfavorable,Average,Failure
+High,Novice,Very Large,Poor,Below Average,Very Unfavorable,Excellent,Failure
+High,Advanced,Very Large,Good,Good,Very Favorable,Good,Success
+Medium,Beginner,Medium,Below Average,Poor,Unfavorable,Very Poor,Failure
+Medium,Advanced,Very Large,Below Average,Poor,Neutral,Average,Failure
+Low,Advanced,Very Large,Poor,Below Average,Favorable,Excellent,Success
+High,Beginner,Large,Poor,Excellent,Favorable,Good,Success
+High,Expert,Very Large,Average,Below Average,Neutral,Average,Failure
+High,Intermediate,Very Small,Average,Poor,Unfavorable,Average,Failure
+Very Low,Expert,Small,Below Average,Excellent,Very Unfavorable,Very Poor,Failure
+High,Novice,Very Large,Average,Excellent,Very Unfavorable,Poor,Failure
+High,Expert,Very Large,Poor,Below Average,Very Unfavorable,Very Poor,Failure
+Low,Beginner,Medium,Average,Good,Unfavorable,Poor,Failure
+Low,Advanced,Medium,Average,Average,Unfavorable,Good,Failure
+Very High,Novice,Very Small,Below Average,Excellent,Very Favorable,Very Poor,Failure
+Low,Novice,Large,Good,Excellent,Very Favorable,Excellent,Success
+High,Novice,Very Large,Good,Average,Neutral,Excellent,Failure
+High,Advanced,Small,Excellent,Poor,Neutral,Excellent,Failure
+High,Expert,Very Large,Excellent,Average,Very Unfavorable,Excellent,Failure
+Low,Advanced,Large,Below Average,Below Average,Unfavorable,Poor,Failure
+Medium,Intermediate,Large,Below Average,Excellent,Very Favorable,Average,Success
+Very Low,Novice,Small,Good,Excellent,Very Unfavorable,Good,Success
+Very High,Beginner,Very Small,Below Average,Good,Very Favorable,Excellent,Success
+Medium,Advanced,Very Large,Poor,Poor,Unfavorable,Good,Failure
+Very Low,Novice,Very Large,Below Average,Below Average,Unfavorable,Very Poor,Failure
+Low,Advanced,Medium,Average,Average,Neutral,Poor,Failure
+Very High,Advanced,Very Small,Below Average,Poor,Unfavorable,Poor,Failure
+Very High,Expert,Small,Good,Poor,Unfavorable,Poor,Failure
+Low,Advanced,Very Large,Poor,Below Average,Very Unfavorable,Average,Failure
+Medium,Beginner,Large,Excellent,Good,Unfavorable,Average,Failure
+Very Low,Intermediate,Very Small,Poor,Below Average,Favorable,Poor,Failure
+High,Intermediate,Large,Poor,Below Average,Very Unfavorable,Average,Failure
+High,Advanced,Large,Average,Good,Neutral,Good,Failure
+Very Low,Advanced,Very Large,Poor,Poor,Very Unfavorable,Good,Failure
+High,Advanced,Small,Below Average,Poor,Very Unfavorable,Good,Failure
+Medium,Intermediate,Small,Good,Average,Unfavorable,Good,Failure
+Low,Advanced,Small,Poor,Good,Very Unfavorable,Very Poor,Failure
+High,Expert,Very Large,Poor,Poor,Very Favorable,Very Poor,Failure
+Low,Advanced,Medium,Below Average,Poor,Favorable,Poor,Failure
+High,Beginner,Small,Poor,Good,Very Favorable,Excellent,Success
+High,Beginner,Large,Excellent,Excellent,Neutral,Average,Failure
+Very High,Intermediate,Large,Poor,Poor,Favorable,Average,Success
+High,Beginner,Medium,Poor,Good,Unfavorable,Poor,Failure
+Very High,Intermediate,Very Small,Poor,Excellent,Favorable,Average,Success
+Very Low,Beginner,Very Large,Excellent,Excellent,Unfavorable,Good,Success
+High,Intermediate,Very Large,Excellent,Poor,Very Unfavorable,Average,Success
+High,Novice,Large,Excellent,Average,Unfavorable,Poor,Failure
+High,Beginner,Small,Excellent,Below Average,Neutral,Average,Failure
+Very High,Advanced,Small,Poor,Average,Very Favorable,Poor,Failure
+High,Intermediate,Medium,Below Average,Average,Favorable,Average,Failure
+Medium,Intermediate,Very Small,Good,Poor,Very Favorable,Good,Failure
+Very Low,Expert,Small,Good,Good,Very Favorable,Excellent,Success
+Low,Novice,Small,Poor,Good,Very Favorable,Very Poor,Success
+Low,Novice,Large,Average,Excellent,Very Favorable,Very Poor,Success
+Very High,Advanced,Small,Good,Average,Very Unfavorable,Good,Failure
+Very Low,Intermediate,Very Large,Excellent,Below Average,Neutral,Average,Failure
+Very Low,Novice,Small,Average,Excellent,Neutral,Poor,Failure
+Low,Novice,Small,Below Average,Below Average,Unfavorable,Average,Failure
+Very High,Expert,Very Small,Average,Excellent,Unfavorable,Good,Success
+Medium,Advanced,Very Large,Below Average,Good,Unfavorable,Poor,Failure
+Very Low,Advanced,Medium,Average,Poor,Neutral,Excellent,Failure
+Low,Novice,Very Large,Good,Below Average,Neutral,Poor,Failure
+Medium,Beginner,Medium,Excellent,Poor,Neutral,Very Poor,Failure
+Medium,Expert,Very Small,Below Average,Excellent,Unfavorable,Average,Failure
+Medium,Beginner,Very Small,Below Average,Excellent,Very Unfavorable,Excellent,Success
+High,Expert,Large,Average,Poor,Very Favorable,Excellent,Success
+Medium,Beginner,Very Small,Excellent,Good,Neutral,Poor,Success
+Medium,Advanced,Small,Poor,Below Average,Neutral,Very Poor,Failure
+Low,Intermediate,Very Large,Below Average,Poor,Favorable,Very Poor,Success
+Very High,Advanced,Medium,Excellent,Excellent,Neutral,Very Poor,Failure
+High,Novice,Very Large,Poor,Below Average,Very Favorable,Excellent,Success
+Low,Beginner,Very Large,Below Average,Below Average,Unfavorable,Poor,Failure
+Low,Novice,Very Large,Excellent,Average,Favorable,Excellent,Success
+Medium,Advanced,Very Large,Below Average,Below Average,Very Favorable,Very Poor,Failure
+High,Beginner,Very Large,Good,Good,Very Unfavorable,Very Poor,Failure
+Very High,Expert,Very Small,Excellent,Poor,Very Favorable,Poor,Failure
+Very High,Intermediate,Very Large,Average,Good,Neutral,Very Poor,Failure
+Low,Advanced,Very Large,Average,Average,Unfavorable,Excellent,Failure
+High,Advanced,Medium,Poor,Good,Very Favorable,Poor,Failure
+Low,Intermediate,Very Large,Good,Below Average,Favorable,Excellent,Success
+Low,Advanced,Very Large,Poor,Below Average,Very Favorable,Good,Success
+Very High,Beginner,Very Large,Average,Below Average,Favorable,Good,Success
+Very High,Beginner,Small,Excellent,Poor,Favorable,Excellent,Success
+Low,Advanced,Small,Good,Excellent,Very Favorable,Average,Success
+Very High,Beginner,Small,Below Average,Excellent,Favorable,Very Poor,Failure
+Very High,Advanced,Very Large,Below Average,Average,Unfavorable,Good,Success
+Medium,Advanced,Very Small,Excellent,Good,Neutral,Excellent,Success
+Medium,Expert,Small,Average,Excellent,Very Unfavorable,Poor,Failure
+Very Low,Intermediate,Large,Poor,Poor,Very Favorable,Excellent,Success
+Very Low,Beginner,Small,Average,Below Average,Favorable,Good,Success
+Low,Intermediate,Medium,Excellent,Average,Neutral,Very Poor,Failure
