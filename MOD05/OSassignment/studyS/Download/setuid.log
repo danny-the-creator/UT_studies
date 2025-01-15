@@ -1,0 +1,7 @@
+rid=1000, eid=1000
+rid=1000, eid=1000
+-rwsrwsrwx 1 dannyone dannyone 16472 Oct  9 14:28 /tmp/submit
+
+/tmp/db:
+total 4
+-rw-r--r-- 1 dannyone dannyone 4 Oct  9 14:28 1000
